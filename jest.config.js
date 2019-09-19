@@ -22,12 +22,15 @@ module.exports = {
     '^.+\\.tsx?$': 'babel-jest'
   },
   transformIgnorePatterns: [
-    '<rootDir>/node_modules/'
+    '<rootDir>/node_modules/',
+    '<rootDir>/lib/'
   ],
   collectCoverageFrom: [
     'src/**/*.{ts,tsx}',
     '!**/*.d.ts',
     '!node_modules/**/*',
+    '!lib/**/*',
+    '!_bundles/**/*',
     '!**/index.tsx'
   ]
 }

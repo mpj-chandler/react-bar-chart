@@ -1,9 +1,12 @@
 {
   "name": "react-bar-chart",
-  "version": "1.0.0",
+  "version": "0.3.0",
   "description": "Experimental bar chart library for react",
-  "main": "index.js",
+  "main": "_bundles/react-bar-chart-js",
   "repository": "https://github.com/mpj-chandler/react-bar-chart.git",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "author": "mpj-chandler <mpj_chandler@hotmail.com>",
   "license": "MIT",
   "private": false,
@@ -65,13 +68,16 @@
     "global": "^4.4.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.2",
-    "webpack-dev-server": "^3.7.2"
+    "webpack-dev-server": "^3.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "scripts": {
+    "publish": "npm publish --tag beta",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "build": "webpack",

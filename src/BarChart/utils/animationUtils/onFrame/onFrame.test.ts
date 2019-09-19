@@ -1,5 +1,5 @@
 import onFrame from './onFrame';
-import '../../../setupTests.js';
+import '../../../../../setupTests';
 import loop from '../loop/loop';
 
 jest.useFakeTimers();

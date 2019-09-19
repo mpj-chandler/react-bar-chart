@@ -2,9 +2,9 @@ import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import BarChart, { BarChartProps } from './BarChart';
 
-jest.mock('../XAxis/XAxis.tsx');
-jest.mock('../YAxis/YAxis.tsx');
-jest.mock('../BarPlot/BarPlot.tsx');
+jest.mock('./components/XAxis/XAxis');
+jest.mock('./components/YAxis/YAxis');
+jest.mock('./components/BarPlot/BarPlot.tsx');
 
 describe('Bar Chart', () => {
     const props: BarChartProps = {

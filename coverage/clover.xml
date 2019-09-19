@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1568925962386" clover="3.2.0">
+  <project timestamp="1568925962386" name="All files">
+    <metrics statements="268" coveredstatements="268" conditionals="123" coveredconditionals="123" methods="64" coveredmethods="64" elements="455" coveredelements="455" complexity="0" loc="268" ncloc="268" packages="26" files="33" classes="33"/>
+    <package name="BarChart">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BarChart.tsx" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/BarChart.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.components.AxisTickLabel">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="AxisTickLabel.tsx" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/AxisTickLabel/AxisTickLabel.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="18" type="stmt"/>
+        <line num="14" count="18" type="stmt"/>
+        <line num="15" count="18" type="stmt"/>
+        <line num="17" count="18" type="stmt"/>
+        <line num="18" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="28" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.components.Bar">
+      <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="5"/>
+      <file name="Bar.tsx" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/Bar/Bar.tsx">
+        <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="5"/>
+        <line num="27" count="18" type="stmt"/>
+        <line num="28" count="18" type="stmt"/>
+        <line num="30" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="34" count="12" type="stmt"/>
+        <line num="38" count="18" type="stmt"/>
+        <line num="43" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="47" count="12" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="52" count="19" type="stmt"/>
+        <line num="53" count="18" type="stmt"/>
+        <line num="54" count="18" type="stmt"/>
+        <line num="55" count="18" type="stmt"/>
+        <line num="56" count="18" type="stmt"/>
+        <line num="57" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="6" type="stmt"/>
+        <line num="61" count="12" type="stmt"/>
+        <line num="64" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.components.Bar.utils">
+      <metrics statements="16" coveredstatements="16" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3"/>
+      <file name="getBarXPosition.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/Bar/utils/getBarXPosition.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3"/>
+        <line num="7" count="19" type="stmt"/>
+        <line num="8" count="19" type="stmt"/>
+        <line num="10" count="19" type="cond" truecount="3" falsecount="0"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="23" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="39" count="9" type="stmt"/>
+        <line num="41" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="50" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.components.BarPlot">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="BarPlot.tsx" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/BarPlot/BarPlot.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="25" count="10" type="stmt"/>
+        <line num="30" count="30" type="cond" truecount="4" falsecount="0"/>
+        <line num="31" count="20" type="stmt"/>
+        <line num="46" count="10" type="stmt"/>
+        <line num="51" count="10" type="stmt"/>
+        <line num="52" count="10" type="stmt"/>
+        <line num="53" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="10" type="stmt"/>
+        <line num="56" count="10" type="stmt"/>
+        <line num="60" count="10" type="stmt"/>
+        <line num="70" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.components.XAxis">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="XAxis.tsx" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/XAxis/XAxis.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.components.XAxis.utils">
+      <metrics statements="36" coveredstatements="36" conditionals="22" coveredconditionals="22" methods="5" coveredmethods="5"/>
+      <file name="getTickTextXPosition.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/XAxis/utils/getTickTextXPosition.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="12" count="53" type="cond" truecount="4" falsecount="0"/>
+        <line num="15" count="51" type="stmt"/>
+        <line num="17" count="51" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="48" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="32" count="49" type="stmt"/>
+        <line num="33" count="49" type="stmt"/>
+        <line num="34" count="49" type="stmt"/>
+        <line num="35" count="49" type="stmt"/>
+        <line num="36" count="49" type="cond" truecount="4" falsecount="0"/>
+        <line num="37" count="17" type="stmt"/>
+        <line num="39" count="17" type="stmt"/>
+        <line num="42" count="32" type="stmt"/>
+      </file>
+      <file name="getTickXPosition.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/XAxis/utils/getTickXPosition.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="11" count="53" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="51" type="stmt"/>
+        <line num="16" count="51" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="20" count="48" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="31" count="49" type="stmt"/>
+        <line num="32" count="49" type="stmt"/>
+        <line num="33" count="49" type="stmt"/>
+        <line num="34" count="49" type="stmt"/>
+        <line num="36" count="49" type="cond" truecount="4" falsecount="0"/>
+        <line num="37" count="17" type="stmt"/>
+        <line num="39" count="17" type="stmt"/>
+        <line num="42" count="32" type="stmt"/>
+      </file>
+      <file name="getXAxisYPos.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/XAxis/utils/getXAxisYPos.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="12" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+        <line num="7" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.components.XAxisTicks">
+      <metrics statements="8" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="XAxisTicks.tsx" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/XAxisTicks/XAxisTicks.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="20" count="45" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="45" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="50" count="12" type="stmt"/>
+        <line num="52" count="12" type="stmt"/>
+        <line num="54" count="45" type="stmt"/>
+        <line num="55" count="45" type="stmt"/>
+        <line num="57" count="45" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.components.YAxis">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="YAxis.tsx" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/components/YAxis/YAxis.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.enums">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Axis.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/enums/Axis.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="DataType.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/enums/DataType.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Placement.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/enums/Placement.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.animationUtils.getEasingFunction">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="getEasingFunction.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/animationUtils/getEasingFunction/getEasingFunction.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="2" count="22" type="cond" truecount="4" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="19" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.animationUtils.loop">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="loop.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/animationUtils/loop/loop.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.animationUtils.onFrame">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="onFrame.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/animationUtils/onFrame/onFrame.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="4" count="23" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.animationUtils.onStart">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="onStart.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/animationUtils/onStart/onStart.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="9" count="19" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.animationUtils.setupAnimation">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="setupAnimation.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/animationUtils/setupAnimation/setupAnimation.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="8" count="20" type="stmt"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="12" count="20" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.axisUtils.applyAxisConfig">
+      <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="applyAxisConfig.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/applyAxisConfig/applyAxisConfig.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="7" count="104" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="101" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="12" count="101" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="17" count="104" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.axisUtils.applyBucketPlacement">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="applyBucketPlacement.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/applyBucketPlacement/applyBucketPlacement.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="42" type="stmt"/>
+        <line num="6" count="42" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.axisUtils.applyMargin">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="applyMargin.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/applyMargin/applyMargin.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="4" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.axisUtils.applyZeroIntercept">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="applyZeroIntercept.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/applyZeroIntercept/applyZeroIntercept.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="4" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="8" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.axisUtils.calculateTickInterval">
+      <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="calculateTickInterval.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/calculateTickInterval/calculateTickInterval.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="4" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="36" type="stmt"/>
+        <line num="8" count="36" type="stmt"/>
+        <line num="9" count="36" type="stmt"/>
+        <line num="11" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="23" type="stmt"/>
+        <line num="15" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.axisUtils.extractMaximumAndMinimum">
+      <metrics statements="18" coveredstatements="18" conditionals="16" coveredconditionals="16" methods="3" coveredmethods="3"/>
+      <file name="extractMaximumAndMinimum.testdata.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/extractMaximumAndMinimum/extractMaximumAndMinimum.testdata.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="110" count="1" type="stmt"/>
+      </file>
+      <file name="extractMaximumAndMinimum.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/extractMaximumAndMinimum/extractMaximumAndMinimum.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="16" coveredconditionals="16" methods="3" coveredmethods="3"/>
+        <line num="6" count="163" type="stmt"/>
+        <line num="7" count="163" type="stmt"/>
+        <line num="9" count="163" type="stmt"/>
+        <line num="10" count="183" type="stmt"/>
+        <line num="11" count="550" type="stmt"/>
+        <line num="12" count="550" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="550" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="530" type="cond" truecount="4" falsecount="0"/>
+        <line num="15" count="176" type="stmt"/>
+        <line num="17" count="530" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="462" type="stmt"/>
+        <line num="24" count="163" type="cond" truecount="4" falsecount="0"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="28" count="161" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.axisUtils.generateAxisLabels">
+      <metrics statements="47" coveredstatements="47" conditionals="16" coveredconditionals="16" methods="7" coveredmethods="7"/>
+      <file name="extractDataType.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/generateAxisLabels/extractDataType.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="5" count="181" type="stmt"/>
+        <line num="6" count="181" type="stmt"/>
+        <line num="7" count="223" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="223" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="179" type="stmt"/>
+        <line num="10" count="44" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="14" count="177" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="175" type="stmt"/>
+      </file>
+      <file name="generateAxisLabels.testdata.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/generateAxisLabels/generateAxisLabels.testdata.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="112" count="2" type="stmt"/>
+        <line num="138" count="2" type="stmt"/>
+        <line num="140" count="2" type="stmt"/>
+        <line num="168" count="2" type="stmt"/>
+        <line num="222" count="2" type="stmt"/>
+        <line num="276" count="2" type="stmt"/>
+        <line num="330" count="2" type="stmt"/>
+      </file>
+      <file name="generateAxisLabels.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/generateAxisLabels/generateAxisLabels.ts">
+        <metrics statements="28" coveredstatements="28" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="5"/>
+        <line num="14" count="26" type="stmt"/>
+        <line num="16" count="24" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="19" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="28" count="19" type="stmt"/>
+        <line num="30" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="14" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="36" count="19" type="stmt"/>
+        <line num="37" count="19" type="stmt"/>
+        <line num="38" count="19" type="stmt"/>
+        <line num="39" count="19" type="stmt"/>
+        <line num="41" count="19" type="stmt"/>
+        <line num="42" count="28" type="stmt"/>
+        <line num="44" count="19" type="stmt"/>
+        <line num="46" count="19" type="stmt"/>
+        <line num="47" count="116" type="stmt"/>
+        <line num="48" count="116" type="stmt"/>
+        <line num="49" count="116" type="stmt"/>
+        <line num="52" count="19" type="stmt"/>
+        <line num="56" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="6" type="stmt"/>
+        <line num="64" count="12" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.axisUtils.getXAxisRange">
+      <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="14" methods="5" coveredmethods="5"/>
+      <file name="getXAxisRange.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/getXAxisRange/getXAxisRange.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="14" methods="5" coveredmethods="5"/>
+        <line num="12" count="133" type="stmt"/>
+        <line num="14" count="133" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="126" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="34" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="43" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="50" count="5" type="stmt"/>
+        <line num="54" count="126" type="stmt"/>
+        <line num="55" count="126" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="75" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="39" type="stmt"/>
+        <line num="59" count="75" type="stmt"/>
+        <line num="62" count="126" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.axisUtils.getYAxisRange">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="getYAxisRange.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/axisUtils/getYAxisRange/getYAxisRange.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="7" count="31" type="stmt"/>
+        <line num="9" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="18" type="stmt"/>
+        <line num="13" count="31" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.hooks.useAnimation">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="useAnimation.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/hooks/useAnimation/useAnimation.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="19" type="stmt"/>
+        <line num="11" count="19" type="stmt"/>
+        <line num="13" count="19" type="stmt"/>
+        <line num="15" count="19" type="stmt"/>
+      </file>
+    </package>
+    <package name="BarChart.utils.hooks.useAnimationTimer">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="useAnimationTimer.ts" path="/Users/marcuschandler/Desktop/react-bar-chart/src/BarChart/utils/hooks/useAnimationTimer/useAnimationTimer.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="18" type="stmt"/>
+        <line num="8" count="18" type="stmt"/>
+        <line num="9" count="18" type="stmt"/>
+        <line num="14" count="18" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

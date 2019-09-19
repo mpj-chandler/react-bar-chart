@@ -1,9 +1,6 @@
-/// <reference types="./__types__/postCssPresetEnv" />
-// The above is needed for ts-node
-
 import { Configuration } from 'webpack';
 import * as path from 'path';
-import * as postcssPresetEnv from 'postcss-preset-env';
+import postcssPresetEnv from 'postcss-preset-env';
 
 const config: Configuration = {
     mode: 'development',
@@ -95,7 +92,21 @@ const config: Configuration = {
                 ]
             }
         ],
-    }
+    },
+    externals: {      
+        "react": {          
+            commonjs: "react",          
+            commonjs2: "react",          
+            amd: "React",          
+            root: "React"      
+        },      
+        "react-dom": {          
+            commonjs: "react-dom",          
+            commonjs2: "react-dom",          
+            amd: "ReactDOM",          
+            root: "ReactDOM"      
+        }  
+    } 
 };
 
 export default config;
