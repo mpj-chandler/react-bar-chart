@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [ "es2015", "dom" ],
+        "outDir": "lib",
+        "sourceMap": true,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react"
+    },
+    "files": [
+        "src/BarChart/BarChart.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getTickXPosition When using an unknown label data type it throws an error 1`] = `"Error in calculating XAxis tick position! Data type not recognised!"`;
+
+exports[`getTickXPosition When using named x-value labels it renders consistently 1`] = `290`;
+
+exports[`getTickXPosition When using non-null numeric x-value labels and bucket alignment it renders consistently 1`] = `236.66666666666669`;
+
+exports[`getTickXPosition When using non-null numeric x-value labels and bucket alignment it throws an error when a non-numeric value is passed 1`] = `"Error in calculating XAxis tick position! Label must be convertable to a number for label of this type!"`;
+
+exports[`getTickXPosition When using numeric x-value labels and bucket alignment it renders consistently 1`] = `236.66666666666669`;
+
+exports[`getTickXPosition When using numeric x-value labels and bucket alignment it throws an error when a non-numeric value is passed 1`] = `"Error in calculating XAxis tick position! Label must be convertable to a number for label of this type!"`;
+
+exports[`getTickXPosition When using numeric x-value labels and default alignment it renders consistently 1`] = `330`;
+
+exports[`getTickXPosition When using numeric x-value labels and default alignment it throws an error when a non-numeric value is passed 1`] = `"Error in calculating XAxis tick position! Label must be convertable to a number for label of this type!"`;

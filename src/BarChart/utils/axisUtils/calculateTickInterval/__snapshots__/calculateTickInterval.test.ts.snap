@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculateTickInterval when using default sensitivity (0.25) it throws an error when the range maximum is equal to the range minimum 1`] = `"Error! Range maximum has to be greater than range minimum."`;
+
+exports[`calculateTickInterval when using default sensitivity (0.25) it throws an error when the range maximum is less than the range minimum 1`] = `"Error! Range maximum has to be greater than range minimum."`;

@@ -1,0 +1,9 @@
+.XAxis {
+  grid-area: plot;
+  z-index: 100;
+
+  &__Svg {
+    width: 100%;
+    height: 100%;
+  }
+}

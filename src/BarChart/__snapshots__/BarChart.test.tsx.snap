@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bar Chart it renders consistently 1`] = `
+<div
+  className="BarChart"
+>
+  <div
+    className="BarChart__title"
+  >
+    anything
+  </div>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y": 10,
+            },
+            Object {
+              "x": 1,
+              "y": 20,
+            },
+            Object {
+              "x": 2,
+              "y": 30,
+            },
+          ],
+          "seriesName": "A",
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="YAxis"
+  >
+    Mock YAxis 
+  </div>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y": 10,
+            },
+            Object {
+              "x": 1,
+              "y": 20,
+            },
+            Object {
+              "x": 2,
+              "y": 30,
+            },
+          ],
+          "seriesName": "A",
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+  >
+    Mock BarPlot 
+  </div>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y": 10,
+            },
+            Object {
+              "x": 1,
+              "y": 20,
+            },
+            Object {
+              "x": 2,
+              "y": 30,
+            },
+          ],
+          "seriesName": "A",
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="XAxis"
+  >
+    Mock XAxis 
+  </div>
+</div>
+`;

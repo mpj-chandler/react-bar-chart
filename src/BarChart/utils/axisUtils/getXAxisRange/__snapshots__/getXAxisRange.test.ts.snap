@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getXAxisRange when using an unknown data type it throws an error 1`] = `"Error in XAxis calibration - unrecognised data type!"`;
+
+exports[`getXAxisRange when using named data When provided with empty data it throws an error 1`] = `"Error in XAxis calibration - unable to extract any data points!"`;

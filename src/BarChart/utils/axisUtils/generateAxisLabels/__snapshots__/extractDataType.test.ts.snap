@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`extractDataType it extracts the correct data type for data-1 1`] = `"NON_NULL_NUMERIC"`;
+
+exports[`extractDataType it extracts the correct data type for data-1 2`] = `"NON_NULL_NUMERIC"`;
+
+exports[`extractDataType it extracts the correct data type for data-2 1`] = `"NON_NULL_NUMERIC"`;
+
+exports[`extractDataType it extracts the correct data type for data-2 2`] = `"NON_NULL_NUMERIC"`;
+
+exports[`extractDataType it extracts the correct data type for data-3 1`] = `"NON_NULL_NUMERIC"`;
+
+exports[`extractDataType it extracts the correct data type for data-3 2`] = `"NON_NULL_NUMERIC"`;
+
+exports[`extractDataType it extracts the correct data type for data-4 1`] = `"NON_NULL_NUMERIC"`;
+
+exports[`extractDataType it extracts the correct data type for data-4 2`] = `"NON_NULL_NUMERIC"`;
+
+exports[`extractDataType it throws an error when no data is available 1`] = `"Error in axis calibration: unable to determine what type of data is being plotted!"`;
+
+exports[`extractDataType it throws an error when no data is available 2`] = `"Error in axis calibration: unable to determine what type of data is being plotted!"`;
+
+exports[`extractDataType it throws an error with inconsistent data 1`] = `"Error in axis calibration: all series data plotted on a given axis must be of the same type!"`;
+
+exports[`extractDataType it throws an error with inconsistent data 2`] = `"Error in axis calibration: all series data plotted on a given axis must be of the same type!"`;

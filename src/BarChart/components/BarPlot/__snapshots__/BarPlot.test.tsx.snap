@@ -1,0 +1,871 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BarPlot When all data points are non-null it renders consistently with defaults 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={0}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 0,
+          "y": 10,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={1}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 1,
+          "y": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`BarPlot When all data points are non-null it renders consistently with tick alignment explicitly set to Aligned for XAxis and Bucket for YAxis 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={0}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 0,
+          "y": 10,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={1}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 1,
+          "y": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`BarPlot When all data points are non-null it renders consistently with tick alignment explicitly set to Aligned for both axes 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={0}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 0,
+          "y": 10,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={1}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 1,
+          "y": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`BarPlot When all data points are non-null it renders consistently with tick alignment explicitly set to Bucket for XAxis and Aligned for YAxis 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={0}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 0,
+          "y": 10,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.6666666666666665,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={1}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 1,
+          "y": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.6666666666666665,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.6666666666666665,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`BarPlot When all data points are non-null it renders consistently with tick alignment explicitly set to Bucket for both axes 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={0}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 0,
+          "y": 10,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.6666666666666665,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={1}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 1,
+          "y": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.6666666666666665,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.6666666666666665,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`BarPlot When some data points are null it renders consistently with defaults 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 1,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`BarPlot When some data points are null it renders consistently with tick alignment explicitly set to Aligned for XAxis and Bucket for YAxis 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 1,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`BarPlot When some data points are null it renders consistently with tick alignment explicitly set to Aligned for both axes 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2,
+          "min": 1,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`BarPlot When some data points are null it renders consistently with tick alignment explicitly set to Bucket for XAxis and Aligned for YAxis 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.3333333333333335,
+          "min": 1,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`BarPlot When some data points are null it renders consistently with tick alignment explicitly set to Bucket for both axes 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      fill="#283593"
+      index={2}
+      numBars={3}
+      numSeries={1}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 2,
+          "y": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.3333333333333335,
+          "min": 1,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;

@@ -1,0 +1,11 @@
+.BarChart {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "title" "plot";
+  grid-template-rows: 3vh 1fr;
+
+  &__title {
+    grid-area: title;
+  }
+}
