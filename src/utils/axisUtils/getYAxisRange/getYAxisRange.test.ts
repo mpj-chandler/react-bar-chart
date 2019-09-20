@@ -1,10 +1,15 @@
 import { getYAxisRange } from './getYAxisRange';
 import Placement from '../../../enums/Placement';
+import DataType from '../../../enums/DataType';
 
 describe('getYAxisRange', () => {
     const data = [
         {
             seriesName: 'A',
+            type: {
+                x: DataType.NonNullNumeric,
+                y: DataType.NonNullNumeric,
+            },
             points: [
                 {
                     x: 0,

@@ -1,6 +1,7 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import BarChart, { BarChartProps } from './BarChart';
+import DataType from '../../enums/DataType';
 
 jest.mock('./components/XAxis/XAxis');
 jest.mock('./components/YAxis/YAxis');
@@ -12,6 +13,10 @@ describe('Bar Chart', () => {
         data: [
             {
                 seriesName: 'A',
+                type: {
+                    x: DataType.NonNullNumeric,
+                    y: DataType.NonNullNumeric,
+                },
                 points: [
                     {
                         x: 0,

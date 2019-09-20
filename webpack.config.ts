@@ -5,8 +5,8 @@ import postcssPresetEnv from 'postcss-preset-env';
 const config: Configuration = {
     mode: 'development',
     entry: {
-        'react-bar-chart': './src/BarChart/BarChart.tsx',
-        'react-bar-chart.min': './src/BarChart/BarChart.tsx'
+        'react-hooks-bar-chart': './src/BarChart/BarChart.tsx',
+        'react-hooks-bar-chart.min': './src/BarChart/BarChart.tsx'
     },
     output: {
         path: path.resolve(__dirname, '_bundles'),
