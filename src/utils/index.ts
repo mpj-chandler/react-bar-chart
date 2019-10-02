@@ -1,24 +1,12 @@
 import {
-    AxisTickLabel,
-    Bar,
-    BarChart,
-    BarPlot,
-    XAxis,
-    YAxis
-} from './components';
-
-import {
-    Axis,
-    DataType,
-    Placement
-} from './enums';
-
-import {
     getEasingFunction,
     loop,
     onFrame,
     onStart,
-    setupAnimation,
+    setupAnimation
+} from './animationUtils';
+
+import {
     applyAxisConfig,
     applyBucketPlacement,
     applyMargin,
@@ -27,21 +15,15 @@ import {
     extractMaximumAndMinimum,
     generateAxisLabels,
     getXAxisRange,
-    getYAxisRange,
+    getYAxisRange
+} from './axisUtils';
+
+import {
     useAnimation,
     useAnimationTimer
-} from './utils';
+} from './hooks';
 
 export {
-    AxisTickLabel,
-    Bar,
-    BarChart,
-    BarPlot,
-    XAxis,
-    YAxis,
-    Axis,
-    DataType,
-    Placement,
     getEasingFunction,
     loop,
     onFrame,

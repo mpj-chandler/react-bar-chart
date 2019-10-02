@@ -10,5 +10,7 @@ package.json
 coverage
 __types__
 node_modules
+tsconfig.json
+yarn.lock
 src
 

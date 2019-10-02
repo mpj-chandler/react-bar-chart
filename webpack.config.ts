@@ -5,16 +5,17 @@ import postcssPresetEnv from 'postcss-preset-env';
 const config: Configuration = {
     mode: 'development',
     entry: {
-        'react-hooks-bar-chart': './src/BarChart/BarChart.tsx',
-        'react-hooks-bar-chart.min': './src/BarChart/BarChart.tsx'
+        'react-hooks-bar-chart': './src/index.ts',
+        'react-hooks-bar-chart.min': './src/index.ts'
     },
     output: {
-        path: path.resolve(__dirname, '_bundles'),
+        path: path.resolve(__dirname, 'lib'),
         filename: '[name].js',
         libraryTarget: 'umd',
-        library: 'react-bar-chart',
+        library: 'react-hooks-bar-chart',
         umdNamedDefine: true
     },
+    devtool: 'source-map',
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.json']
     },
