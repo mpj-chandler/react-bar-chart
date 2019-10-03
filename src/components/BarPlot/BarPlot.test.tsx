@@ -2,7 +2,7 @@ import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import BarPlot, { BarPlotProps } from './BarPlot';
 
-import Placement from '../../enums/Placement';
+import { Placement } from '../../enums/Placement';
 import DataType from '../../enums/DataType';
 import { AxisConfig } from '../../__types__/axisTypes';
 

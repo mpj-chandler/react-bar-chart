@@ -1,6 +1,4 @@
-enum Placement {
+export enum Placement {
     Aligned,
     Bucket,
-}
-
-export default Placement;
+};

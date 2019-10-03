@@ -1,5 +1,5 @@
 import { getYAxisRange } from './getYAxisRange';
-import Placement from '../../../enums/Placement';
+import { Placement } from '../../../enums/Placement';
 import DataType from '../../../enums/DataType';
 
 describe('getYAxisRange', () => {

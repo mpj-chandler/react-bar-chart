@@ -1,4 +1,4 @@
-import Placement from '../../../enums/Placement';
+import { Placement } from '../../../enums/Placement';
 import { applyAxisConfig } from '../applyAxisConfig/applyAxisConfig';
 import { applyBucketPlacement } from '../applyBucketPlacement/applyBucketPlacement';
 import extractMaximumAndMinimum from '../extractMaximumAndMinimum/extractMaximumAndMinimum';

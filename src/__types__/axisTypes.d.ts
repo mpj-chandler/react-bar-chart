@@ -1,6 +1,6 @@
 import { SeriesData } from './seriesTypes';
-import Padding from './stylingTypes';
-import Placement from '../enums/Placement';
+import { Padding } from './styling';
+import { Placement } from '../enums/Placement';
 
 export interface AxisRange {
     min: number;

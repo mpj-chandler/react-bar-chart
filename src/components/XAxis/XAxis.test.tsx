@@ -1,7 +1,7 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import XAxis from './XAxis';
-import Placement from '../../enums/Placement';
+import { Placement } from '../../enums/Placement';
 import DataType from '../../enums/DataType';
 import { AxisProps, AxisConfig } from '../../__types__/axisTypes';
 

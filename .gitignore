@@ -1,3 +1,4 @@
 node_modules
 lib
-_bundles
+lib-esm
+lib-umd

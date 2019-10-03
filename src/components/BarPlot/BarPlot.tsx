@@ -3,11 +3,11 @@ import styles from './BarPlot.scss';
 import Bar from '../Bar/Bar';
 import { getYAxisRange } from '../../utils/axisUtils/getYAxisRange/getYAxisRange';
 import { getXAxisRange } from '../../utils/axisUtils/getXAxisRange/getXAxisRange';
-import Placement from '../../enums/Placement';
+import { Placement } from '../../enums/Placement';
 import { extractDataType } from '../../utils/axisUtils/generateAxisLabels/extractDataType';
 import DataType from '../../enums/DataType';
 import Axis from '../../enums/Axis';
-import { Padding } from '../../__types__/stylingTypes';
+import { Padding } from '../../__types__/styling';
 import { SeriesData, NonNullNumericDataPoint, NumericDataPoint, NamedDataPoint, DateIndexedDataPoint, SeriesConfig } from '../../__types__/seriesTypes';
 import { AxisConfig, AxisRange } from '../../__types__/axisTypes';
 

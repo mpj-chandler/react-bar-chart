@@ -1,9 +1,9 @@
 import React from 'react';
 import { useAnimation } from '../../utils/hooks/useAnimation/useAnimation';
-import Placement from '../../enums/Placement';
+import { Placement } from '../../enums/Placement';
 import { NonNullNumericDataPoint, NamedDataPoint, DateIndexedDataPoint } from '../../__types__/seriesTypes';
 import { AxisRange } from '../../__types__/axisTypes';
-import { Padding } from '../../__types__/stylingTypes';
+import { Padding } from '../../__types__/styling';
 import { getBarXPosition } from './utils/getBarXPosition';
 import DataType from '../../enums/DataType';
 

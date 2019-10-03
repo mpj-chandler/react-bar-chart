@@ -1,5 +1,5 @@
 import { AxisConfig } from '../../../__types__/axisTypes';
-import Placement from '../../../enums/Placement';
+import { Placement } from '../../../enums/Placement';
 import { applyAxisConfig } from './applyAxisConfig';
 
 describe('ApplyAxisConfig', () => {

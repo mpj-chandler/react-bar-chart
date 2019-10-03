@@ -1,4 +1,4 @@
-import Placement from '../../../enums/Placement';
+import { Placement } from '../../../enums/Placement';
 import { BarProps } from '../Bar';
 import DataType from '../../../enums/DataType';
 import { NonNullNumericDataPoint } from '../../../__types__/seriesTypes';

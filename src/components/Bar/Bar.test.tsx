@@ -1,7 +1,7 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import Bar, { BarProps } from './Bar';
-import Placement from '../../enums/Placement';
+import { Placement } from '../../enums/Placement';
 import DataType from '../../enums/DataType';
 
 jest.useFakeTimers();

@@ -9,7 +9,7 @@ const config: Configuration = {
         'react-hooks-bar-chart.min': './src/index.ts'
     },
     output: {
-        path: path.resolve(__dirname, 'lib'),
+        path: path.resolve(__dirname, 'lib-umd'),
         filename: '[name].js',
         libraryTarget: 'umd',
         library: 'react-hooks-bar-chart',

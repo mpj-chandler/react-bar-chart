@@ -1,7 +1,7 @@
 import { getTickXPosition } from './getTickXPosition';
 import { AxisTickProps } from '../../../__types__/axisTypes';
 import DataType from '../../../enums/DataType';
-import Placement from '../../../enums/Placement';
+import { Placement } from '../../../enums/Placement';
 
 describe('getTickXPosition', () => {
     describe('When using numeric x-value labels and default alignment', () => {

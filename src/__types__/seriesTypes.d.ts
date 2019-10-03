@@ -1,7 +1,7 @@
 import DataType from '../enums/DataType';
-import Padding from './stylingTypes';
+import { Padding } from './styling';
 import { AxisRange } from './axisTypes';
-import Placement from '../enums/Placement';
+import { Placement } from '../enums/Placement';
 
 export interface DataPoint {
     tag?: string;

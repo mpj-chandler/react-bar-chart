@@ -5,7 +5,7 @@ import YAxis from '../YAxis/YAxis';
 
 import BarPlot from '../BarPlot/BarPlot';
 import { SeriesData } from '../../__types__/seriesTypes';
-import { Padding } from '../../__types__/stylingTypes';
+import { Padding } from '../../__types__/styling';
 import { AxisConfig } from '../../__types__/axisTypes';
 
 export interface BarChartProps {

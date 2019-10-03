@@ -1,5 +1,5 @@
 import { getXAxisRange } from '../../../utils/axisUtils/getXAxisRange/getXAxisRange';
-import Placement from '../../../enums/Placement';
+import { Placement } from '../../../enums/Placement';
 import { AxisTickProps } from '../../../__types__/axisTypes';
 import DataType from '../../../enums/DataType';
 
