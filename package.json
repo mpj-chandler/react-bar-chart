@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-bar-chart",
-  "version": "0.4.38",
+  "version": "0.4.39",
   "description": "Experimental bar chart library for react",
   "main": "lib-umd/index.js",
   "types": "lib-umd/index.d.ts",
