@@ -1,8 +1,9 @@
 {
   "name": "react-hooks-bar-chart",
-  "version": "0.4.2",
+  "version": "0.4.33",
   "description": "Experimental bar chart library for react",
-  "main": "lib/react-bar-chart-js",
+  "main": "lib-umd/index.js",
+  "types": "lib-umd/index.d.ts",
   "repository": "https://github.com/mpj-chandler/react-bar-chart.git",
   "author": "mpj-chandler <mpj_chandler@hotmail.com>",
   "license": "MIT",
