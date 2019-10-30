@@ -10,12 +10,14 @@ import Axis from '../../enums/Axis';
 import { Padding } from '../../__types__/styling';
 import { SeriesData, NonNullNumericDataPoint, NumericDataPoint, NamedDataPoint, DateIndexedDataPoint, SeriesConfig } from '../../__types__/seriesTypes';
 import { AxisConfig, AxisRange } from '../../__types__/axisTypes';
+import AnimationEasingType from '../../enums/AnimationEasingFunction';
 
 export interface BarPlotProps {
     padding: Padding;
     data: SeriesData[];
     xAxisConfig?: AxisConfig;
     yAxisConfig?: AxisConfig;
+    animationEasingFunction: AnimationEasingType;
 }
 
 const BarPlot: React.FC<BarPlotProps> = (props: BarPlotProps) => {
@@ -39,6 +41,7 @@ const BarPlot: React.FC<BarPlotProps> = (props: BarPlotProps) => {
                         numBars={seriesData.points.length}
                         placement={placement}
                         index={index}
+                        animationEasingType={props.animationEasingFunction}
                     />
                 );
             }

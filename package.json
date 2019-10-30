@@ -89,7 +89,7 @@
     "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
     "bundle": "webpack",
     "start": "webpack-dev-server",
-    "storybook": "start-storybook",
+    "storybook": "start-storybook -p 6006",
     "test": "jest --coverage --env=jsdom",
     "test:watch": "jest --watch --coverage",
     "lint:ts": "tslint --fix 'src/**/*.ts'"

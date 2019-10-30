@@ -28,6 +28,10 @@ exports[`Bar Chart it renders consistently 1`] = `
             },
           ],
           "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
         },
       ]
     }
@@ -44,6 +48,7 @@ exports[`Bar Chart it renders consistently 1`] = `
     Mock YAxis 
   </div>
   <div
+    animationEasingFunction="none"
     data={
       Array [
         Object {
@@ -62,6 +67,10 @@ exports[`Bar Chart it renders consistently 1`] = `
             },
           ],
           "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
         },
       ]
     }
@@ -95,6 +104,10 @@ exports[`Bar Chart it renders consistently 1`] = `
             },
           ],
           "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
         },
       ]
     }

@@ -2,6 +2,7 @@ import React from 'react';
 import BarChart, { BarChartProps } from '../src/components/BarChart/BarChart';
 import { Placement } from '../src/enums/Placement';
 import DataType from '../src/enums/DataType';
+import AnimationEasingType from '../src/enums/AnimationEasingFunction';
 
 const styles = {
     width: '70vw',
@@ -9,7 +10,7 @@ const styles = {
 };
 const Container = ({ children }) => <div style={styles}>{children}</div>;
 
-const firstBarChartProps: BarChartProps = {
+const simpleBarChartProps: BarChartProps = {
     title: 'My first bar chart',
     data: [
         {
@@ -47,16 +48,38 @@ const firstBarChartProps: BarChartProps = {
         tickPlacement: Placement.Aligned,
         tickLength: 2,
     },
+    animationEasingType: AnimationEasingType.None
 };
+
+const linearAnimationProps = { ...simpleBarChartProps, animationEasingType: AnimationEasingType.Linear};
+const elasticAnimationProps = { ...simpleBarChartProps, animationEasingType: AnimationEasingType.Elastic};
+const inExpoAnimationProps = { ...simpleBarChartProps, animationEasingType: AnimationEasingType.InExpo};
 
 export default {
     component: BarChart,
     title: 'Bar Chart',
 };
 
-export const firstBarChart = () => (
+export const noAnimationBarChart = () => (
     <Container>
-        <BarChart {...firstBarChartProps}/>
+        <BarChart {...simpleBarChartProps}/>
+    </Container>  
+);
+
+export const linearAnimationBarChart = () => (
+    <Container>
+        <BarChart {...linearAnimationProps}/>
+    </Container>  
+);
+
+export const elasticAnimationBarChart = () => (
+    <Container>
+        <BarChart {...elasticAnimationProps}/>
     </Container>
-    
+);
+
+export const inExpoAnimationBarChart = () => (
+    <Container>
+        <BarChart {...inExpoAnimationProps}/>
+    </Container>
 );

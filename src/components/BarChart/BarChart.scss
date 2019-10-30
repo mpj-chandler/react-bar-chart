@@ -4,6 +4,7 @@
   display: grid;
   grid-template-areas: "title" "plot";
   grid-template-rows: 3vh 1fr;
+  font-family: Arial, Helvetica, sans-serif;
 
   &__title {
     grid-area: title;

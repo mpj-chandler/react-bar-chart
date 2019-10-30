@@ -6,6 +6,7 @@ import { AxisRange } from '../../__types__/axisTypes';
 import { Padding } from '../../__types__/styling';
 import { getBarXPosition } from './utils/getBarXPosition';
 import DataType from '../../enums/DataType';
+import AnimationEasingType from '../../enums/AnimationEasingFunction';
 
 export interface BarProps {
     point: NonNullNumericDataPoint | NamedDataPoint | DateIndexedDataPoint;
@@ -21,6 +22,7 @@ export interface BarProps {
     numBars: number;
     numSeries: number;
     placement: Placement;
+    animationEasingType: AnimationEasingType;
 }
 
 function getBarEndingHeight(props: BarProps): number {
@@ -52,7 +54,7 @@ const Bar: React.FC<BarProps> = (props: BarProps) => {
     const x = getBarXPosition(props);
     const height = getBarEndingHeight(props);
     const zeroPoint = getZeroPoint(props);
-    const animation = useAnimation('elastic', 600, 0);
+    const animation = props.animationEasingType === AnimationEasingType.None ? 1 : useAnimation(props.animationEasingType, 600, 0);
     const yStart = (() => {
         if (props.yRange.max <= 0) {
             return props.padding.top;

@@ -1,5 +1,5 @@
 import onStart from './onStart';
-import '../../../../../setupTests';
+import '../../../../setupTests';
 
 jest.useFakeTimers();
 

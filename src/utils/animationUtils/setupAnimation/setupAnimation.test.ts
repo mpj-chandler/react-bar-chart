@@ -1,5 +1,5 @@
 import { setupAnimation } from './setupAnimation';
-import '../../../../../setupTests';
+import '../../../../setupTests';
 import onStart from '../onStart/onStart';
 import loop from '../loop/loop';
 

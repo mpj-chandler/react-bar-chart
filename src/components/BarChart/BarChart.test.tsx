@@ -2,10 +2,11 @@ import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import BarChart, { BarChartProps } from './BarChart';
 import DataType from '../../enums/DataType';
+import AnimationEasingType from '../../enums/AnimationEasingFunction';
 
-jest.mock('./components/XAxis/XAxis');
-jest.mock('./components/YAxis/YAxis');
-jest.mock('./components/BarPlot/BarPlot.tsx');
+jest.mock('../XAxis/XAxis');
+jest.mock('../YAxis/YAxis');
+jest.mock('../BarPlot/BarPlot.tsx');
 
 describe('Bar Chart', () => {
     const props: BarChartProps = {
@@ -38,7 +39,8 @@ describe('Bar Chart', () => {
             bottom: 10,
             left: 10,
             right: 10
-        }
+        },
+        animationEasingType: AnimationEasingType.None
     }
     it('it renders consistently', () => {
         const component = TestRenderer.create(<BarChart {...props}/>)

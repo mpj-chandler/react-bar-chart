@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the useAnimationTimer hook it renders consistently with delay: 0 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`the useAnimationTimer hook it renders consistently with delay: 500 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`the useAnimationTimer hook it renders consistently with delay: 1000 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`the useAnimationTimer hook it renders consistently with duration: 0 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`the useAnimationTimer hook it renders consistently with duration: 500 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`the useAnimationTimer hook it renders consistently with duration: 1000 1`] = `
+<div>
+  0
+</div>
+`;

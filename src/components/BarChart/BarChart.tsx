@@ -7,6 +7,7 @@ import BarPlot from '../BarPlot/BarPlot';
 import { SeriesData } from '../../__types__/seriesTypes';
 import { Padding } from '../../__types__/styling';
 import { AxisConfig } from '../../__types__/axisTypes';
+import AnimationEasingType from '../../enums/AnimationEasingFunction';
 
 export interface BarChartProps {
     data: SeriesData[];
@@ -14,6 +15,7 @@ export interface BarChartProps {
     padding: Padding;
     xAxisConfig?: AxisConfig;
     yAxisConfig?: AxisConfig;
+    animationEasingType: AnimationEasingType;
 }
 
 const BarChart: React.FC<BarChartProps> = (props: BarChartProps) => {
@@ -30,6 +32,7 @@ const BarChart: React.FC<BarChartProps> = (props: BarChartProps) => {
                 padding={props.padding}
                 xAxisConfig={props.xAxisConfig}
                 yAxisConfig={props.yAxisConfig}
+                animationEasingFunction={props.animationEasingType}
             />
             <XAxis
                 title={'XAxis'}

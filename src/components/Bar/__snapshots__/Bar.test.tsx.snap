@@ -1,9 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Bar When dealing with an animated graph it renders consistently 1`] = `
+<rect
+  fill="anything"
+  height="0%"
+  stroke="anything"
+  width="100%"
+  x="-39.2%"
+  y="90%"
+/>
+`;
+
 exports[`Bar When dealing with named data types When all values on the yAxis are negative it renders consistently with Placement set to Aligned 1`] = `
 <rect
   fill="anything"
-  height="NaN%"
+  height="-Infinity%"
   stroke="anything"
   width="100%"
   x="-39.2%"
@@ -14,7 +25,7 @@ exports[`Bar When dealing with named data types When all values on the yAxis are
 exports[`Bar When dealing with named data types When all values on the yAxis are negative it renders consistently with Placement set to Bucket 1`] = `
 <rect
   fill="anything"
-  height="NaN%"
+  height="-Infinity%"
   stroke="anything"
   width="100%"
   x="-25.866666666666667%"
@@ -25,7 +36,7 @@ exports[`Bar When dealing with named data types When all values on the yAxis are
 exports[`Bar When dealing with named data types When all values on the yAxis are negative it renders consistently with defaults 1`] = `
 <rect
   fill="anything"
-  height="NaN%"
+  height="-Infinity%"
   stroke="anything"
   width="100%"
   x="-39.2%"
@@ -36,40 +47,40 @@ exports[`Bar When dealing with named data types When all values on the yAxis are
 exports[`Bar When dealing with named data types When all values on the yAxis are positive it renders consistently with Placement set to Aligned 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="40%"
   stroke="anything"
   width="100%"
   x="-39.2%"
-  y="90%"
+  y="50%"
 />
 `;
 
 exports[`Bar When dealing with named data types When all values on the yAxis are positive it renders consistently with Placement set to Bucket 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="40%"
   stroke="anything"
   width="100%"
   x="-25.866666666666667%"
-  y="90%"
+  y="50%"
 />
 `;
 
 exports[`Bar When dealing with named data types When all values on the yAxis are positive it renders consistently with defaults 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="40%"
   stroke="anything"
   width="100%"
   x="-39.2%"
-  y="90%"
+  y="50%"
 />
 `;
 
 exports[`Bar When dealing with named data types When the yAxis spans positive and negative values it renders consistently with Placement set to Aligned 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="20%"
   stroke="anything"
   width="100%"
   x="-39.2%"
@@ -80,7 +91,7 @@ exports[`Bar When dealing with named data types When the yAxis spans positive an
 exports[`Bar When dealing with named data types When the yAxis spans positive and negative values it renders consistently with Placement set to Bucket 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="20%"
   stroke="anything"
   width="100%"
   x="-25.866666666666667%"
@@ -91,7 +102,7 @@ exports[`Bar When dealing with named data types When the yAxis spans positive an
 exports[`Bar When dealing with named data types When the yAxis spans positive and negative values it renders consistently with defaults 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="20%"
   stroke="anything"
   width="100%"
   x="-39.2%"
@@ -102,7 +113,18 @@ exports[`Bar When dealing with named data types When the yAxis spans positive an
 exports[`Bar When dealing with numeric data types When all values on the yAxis are negative it renders consistently with Placement set to Aligned 1`] = `
 <rect
   fill="anything"
-  height="NaN%"
+  height="-Infinity%"
+  stroke="anything"
+  width="100%"
+  x="-32%"
+  y="10%"
+/>
+`;
+
+exports[`Bar When dealing with numeric data types When all values on the yAxis are negative it renders consistently with Placement set to Aligned 2`] = `
+<rect
+  fill="anything"
+  height="-Infinity%"
   stroke="anything"
   width="100%"
   x="-32%"
@@ -113,7 +135,18 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
 exports[`Bar When dealing with numeric data types When all values on the yAxis are negative it renders consistently with Placement set to Bucket 1`] = `
 <rect
   fill="anything"
-  height="NaN%"
+  height="-Infinity%"
+  stroke="anything"
+  width="100%"
+  x="-18.666666666666668%"
+  y="10%"
+/>
+`;
+
+exports[`Bar When dealing with numeric data types When all values on the yAxis are negative it renders consistently with Placement set to Bucket 2`] = `
+<rect
+  fill="anything"
+  height="-Infinity%"
   stroke="anything"
   width="100%"
   x="-18.666666666666668%"
@@ -124,7 +157,18 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
 exports[`Bar When dealing with numeric data types When all values on the yAxis are negative it renders consistently with defaults 1`] = `
 <rect
   fill="anything"
-  height="NaN%"
+  height="-Infinity%"
+  stroke="anything"
+  width="100%"
+  x="-32%"
+  y="10%"
+/>
+`;
+
+exports[`Bar When dealing with numeric data types When all values on the yAxis are negative it renders consistently with defaults 2`] = `
+<rect
+  fill="anything"
+  height="-Infinity%"
   stroke="anything"
   width="100%"
   x="-32%"
@@ -135,40 +179,84 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
 exports[`Bar When dealing with numeric data types When all values on the yAxis are positive it renders consistently with Placement set to Aligned 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="40%"
   stroke="anything"
   width="100%"
   x="-32%"
-  y="90%"
+  y="50%"
+/>
+`;
+
+exports[`Bar When dealing with numeric data types When all values on the yAxis are positive it renders consistently with Placement set to Aligned 2`] = `
+<rect
+  fill="anything"
+  height="40%"
+  stroke="anything"
+  width="100%"
+  x="-32%"
+  y="50%"
 />
 `;
 
 exports[`Bar When dealing with numeric data types When all values on the yAxis are positive it renders consistently with Placement set to Bucket 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="40%"
   stroke="anything"
   width="100%"
   x="-18.666666666666668%"
-  y="90%"
+  y="50%"
+/>
+`;
+
+exports[`Bar When dealing with numeric data types When all values on the yAxis are positive it renders consistently with Placement set to Bucket 2`] = `
+<rect
+  fill="anything"
+  height="40%"
+  stroke="anything"
+  width="100%"
+  x="-18.666666666666668%"
+  y="50%"
 />
 `;
 
 exports[`Bar When dealing with numeric data types When all values on the yAxis are positive it renders consistently with defaults 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="40%"
   stroke="anything"
   width="100%"
   x="-32%"
-  y="90%"
+  y="50%"
+/>
+`;
+
+exports[`Bar When dealing with numeric data types When all values on the yAxis are positive it renders consistently with defaults 2`] = `
+<rect
+  fill="anything"
+  height="40%"
+  stroke="anything"
+  width="100%"
+  x="-32%"
+  y="50%"
 />
 `;
 
 exports[`Bar When dealing with numeric data types When the yAxis spans positive and negative values it renders consistently with Placement set to Aligned 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="20%"
+  stroke="anything"
+  width="100%"
+  x="-32%"
+  y="50%"
+/>
+`;
+
+exports[`Bar When dealing with numeric data types When the yAxis spans positive and negative values it renders consistently with Placement set to Aligned 2`] = `
+<rect
+  fill="anything"
+  height="20%"
   stroke="anything"
   width="100%"
   x="-32%"
@@ -179,7 +267,18 @@ exports[`Bar When dealing with numeric data types When the yAxis spans positive 
 exports[`Bar When dealing with numeric data types When the yAxis spans positive and negative values it renders consistently with Placement set to Bucket 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="20%"
+  stroke="anything"
+  width="100%"
+  x="-18.666666666666668%"
+  y="50%"
+/>
+`;
+
+exports[`Bar When dealing with numeric data types When the yAxis spans positive and negative values it renders consistently with Placement set to Bucket 2`] = `
+<rect
+  fill="anything"
+  height="20%"
   stroke="anything"
   width="100%"
   x="-18.666666666666668%"
@@ -190,7 +289,18 @@ exports[`Bar When dealing with numeric data types When the yAxis spans positive 
 exports[`Bar When dealing with numeric data types When the yAxis spans positive and negative values it renders consistently with defaults 1`] = `
 <rect
   fill="anything"
-  height="0%"
+  height="20%"
+  stroke="anything"
+  width="100%"
+  x="-32%"
+  y="50%"
+/>
+`;
+
+exports[`Bar When dealing with numeric data types When the yAxis spans positive and negative values it renders consistently with defaults 2`] = `
+<rect
+  fill="anything"
+  height="20%"
   stroke="anything"
   width="100%"
   x="-32%"
