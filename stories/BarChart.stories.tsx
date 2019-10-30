@@ -3,6 +3,12 @@ import BarChart, { BarChartProps } from '../src/components/BarChart/BarChart';
 import { Placement } from '../src/enums/Placement';
 import DataType from '../src/enums/DataType';
 
+const styles = {
+    width: '70vw',
+    height: '80vh',
+};
+const Container = ({ children }) => <div style={styles}>{children}</div>;
+
 const firstBarChartProps: BarChartProps = {
     title: 'My first bar chart',
     data: [
@@ -49,5 +55,8 @@ export default {
 };
 
 export const firstBarChart = () => (
-    <BarChart {...firstBarChartProps}/>
+    <Container>
+        <BarChart {...firstBarChartProps}/>
+    </Container>
+    
 );

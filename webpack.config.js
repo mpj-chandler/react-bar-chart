@@ -1,8 +1,21 @@
 "use strict";
 exports.__esModule = true;
 var path = require("path");
-var postcss_preset_env = require("postcss-preset-env");
+var postcss_preset_env_1 = require("postcss-preset-env");
 var config = {
+    mode: 'development',
+    entry: {
+        'react-hooks-bar-chart': './src/index.ts',
+        'react-hooks-bar-chart.min': './src/index.ts'
+    },
+    output: {
+        path: path.resolve(__dirname, 'lib-umd'),
+        filename: '[name].js',
+        libraryTarget: 'umd',
+        library: 'react-hooks-bar-chart',
+        umdNamedDefine: true
+    },
+    devtool: 'source-map',
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.json']
     },
@@ -14,7 +27,7 @@ var config = {
                 loader: 'babel-loader'
             },
             {
-                test: /\.(sass|scss)$/,
+                test: '.scss',
                 use: [
                     {
                         loader: 'style-loader',
@@ -38,7 +51,7 @@ var config = {
                         options: {
                             ident: 'postcss',
                             plugins: function () { return [
-                                postcss_preset_env({
+                                postcss_preset_env_1["default"]({
                                     autoprefixer: { grid: true }
                                 })
                             ]; },
@@ -80,6 +93,20 @@ var config = {
                 ]
             }
         ]
+    },
+    externals: {
+        "react": {
+            commonjs: "react",
+            commonjs2: "react",
+            amd: "React",
+            root: "React"
+        },
+        "react-dom": {
+            commonjs: "react-dom",
+            commonjs2: "react-dom",
+            amd: "ReactDOM",
+            root: "ReactDOM"
+        }
     }
 };
 exports["default"] = config;
