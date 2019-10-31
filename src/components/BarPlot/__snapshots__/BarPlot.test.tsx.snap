@@ -6,8 +6,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={0}
       numBars={3}
       numSeries={1}
@@ -45,8 +46,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={1}
       numBars={3}
       numSeries={1}
@@ -84,8 +86,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -132,8 +135,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={0}
       numBars={3}
       numSeries={1}
@@ -171,8 +175,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={1}
       numBars={3}
       numSeries={1}
@@ -210,8 +215,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -258,8 +264,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={0}
       numBars={3}
       numSeries={1}
@@ -297,8 +304,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={1}
       numBars={3}
       numSeries={1}
@@ -336,8 +344,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -384,8 +393,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={0}
       numBars={3}
       numSeries={1}
@@ -423,8 +433,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={1}
       numBars={3}
       numSeries={1}
@@ -462,8 +473,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -510,8 +522,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={0}
       numBars={3}
       numSeries={1}
@@ -549,8 +562,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={1}
       numBars={3}
       numSeries={1}
@@ -588,8 +602,9 @@ exports[`BarPlot When all data points are non-null it renders consistently with 
       Mock Bar 
     </div>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -636,8 +651,9 @@ exports[`BarPlot When some data points are null it renders consistently with def
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -684,8 +700,9 @@ exports[`BarPlot When some data points are null it renders consistently with tic
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -732,8 +749,9 @@ exports[`BarPlot When some data points are null it renders consistently with tic
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -780,8 +798,9 @@ exports[`BarPlot When some data points are null it renders consistently with tic
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -828,8 +847,9 @@ exports[`BarPlot When some data points are null it renders consistently with tic
 >
   <g>
     <div
+      animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
-      fill="#283593"
+      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}

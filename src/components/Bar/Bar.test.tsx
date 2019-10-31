@@ -29,6 +29,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 
@@ -65,6 +66,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 
@@ -102,6 +104,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 
@@ -140,6 +143,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 
@@ -176,6 +180,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 
@@ -213,6 +218,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 
@@ -251,6 +257,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 
@@ -287,6 +294,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 
@@ -324,6 +332,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 
@@ -361,6 +370,7 @@ describe('Bar', () => {
             numBars: 3,
             seriesIndex: 0,
             numSeries: 1,
+            fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
             animationEasingType: AnimationEasingType.Linear
         };
 
@@ -391,6 +401,7 @@ describe('Bar', () => {
                 numBars: 3,
                 seriesIndex: 0,
                 numSeries: 1,
+                fillFormatter: (dataPoint: DataPoint, index: number) => { return '#000 '},
                 animationEasingType: AnimationEasingType.None
             };
 

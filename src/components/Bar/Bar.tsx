@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAnimation } from '../../utils/hooks/useAnimation/useAnimation';
 import { Placement } from '../../enums/Placement';
-import { NonNullNumericDataPoint, NamedDataPoint, DateIndexedDataPoint } from '../../__types__/seriesTypes';
+import { NonNullNumericDataPoint, NamedDataPoint, DateIndexedDataPoint, DataPoint } from '../../__types__/seriesTypes';
 import { AxisRange } from '../../__types__/axisTypes';
 import { Padding } from '../../__types__/styling';
 import { getBarXPosition } from './utils/getBarXPosition';
@@ -16,12 +16,12 @@ export interface BarProps {
     yRange: AxisRange;
     xRange: AxisRange;
     width: number;
-    fill: string;
     stroke: string;
     padding: Padding;
     numBars: number;
     numSeries: number;
     placement: Placement;
+    fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
     animationEasingType: AnimationEasingType;
 }
 
@@ -63,13 +63,15 @@ const Bar: React.FC<BarProps> = (props: BarProps) => {
         return ((100 - (props.padding.top + props.padding.bottom)) * zeroPoint) + props.padding.top;
     })();
 
+    const fill = props.fillFormatter(props.seriesIndex, props.point, props.index);
+
     return (
         <rect
             x={`${x - props.width / 2}%`}
             y={`${getY(animation * height, yStart, props.point.y)}%`}
             height={`${props.point.y < 0 ? -1 * animation * height : animation * height}%`}
             width={`${props.width / props.numSeries}%`}
-            fill={props.fill}
+            fill={fill}
             stroke={props.stroke}
         >
         </rect>

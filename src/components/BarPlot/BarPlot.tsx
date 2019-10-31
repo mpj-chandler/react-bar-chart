@@ -8,7 +8,7 @@ import { extractDataType } from '../../utils/axisUtils/generateAxisLabels/extrac
 import DataType from '../../enums/DataType';
 import Axis from '../../enums/Axis';
 import { Padding } from '../../__types__/styling';
-import { SeriesData, NonNullNumericDataPoint, NumericDataPoint, NamedDataPoint, DateIndexedDataPoint, SeriesConfig } from '../../__types__/seriesTypes';
+import { SeriesData, NonNullNumericDataPoint, NumericDataPoint, NamedDataPoint, DateIndexedDataPoint, SeriesConfig, DataPoint } from '../../__types__/seriesTypes';
 import { AxisConfig, AxisRange } from '../../__types__/axisTypes';
 import AnimationEasingType from '../../enums/AnimationEasingFunction';
 
@@ -17,11 +17,11 @@ export interface BarPlotProps {
     data: SeriesData[];
     xAxisConfig?: AxisConfig;
     yAxisConfig?: AxisConfig;
+    fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
     animationEasingFunction: AnimationEasingType;
 }
 
 const BarPlot: React.FC<BarPlotProps> = (props: BarPlotProps) => {
-    const colors = ['#283593', '#0277bd', '#2e7d32', '#c62828'];
 
     const renderSeries: (seriesData: SeriesData, config: SeriesConfig) => React.ReactNode = (seriesData, config) => {
         return seriesData.points.map(
@@ -36,12 +36,12 @@ const BarPlot: React.FC<BarPlotProps> = (props: BarPlotProps) => {
                         point={point}
                         { ...config }
                         width={10}
-                        fill={colors[config.seriesIndex % colors.length]}
                         stroke={'black'}
                         numBars={seriesData.points.length}
                         placement={placement}
                         index={index}
                         animationEasingType={props.animationEasingFunction}
+                        fillFormatter={props.fillFormatter}
                     />
                 );
             }

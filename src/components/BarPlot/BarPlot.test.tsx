@@ -5,6 +5,7 @@ import BarPlot, { BarPlotProps } from './BarPlot';
 import { Placement } from '../../enums/Placement';
 import DataType from '../../enums/DataType';
 import { AxisConfig } from '../../__types__/axisTypes';
+import AnimationEasingType from '../../enums/AnimationEasingFunction';
 
 jest.mock('../Bar/Bar.tsx');
 
@@ -48,6 +49,8 @@ describe('BarPlot', () => {
             left: 10,
             right: 10,
         },
+        fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => { return '#000 '},
+        animationEasingFunction: AnimationEasingType.None
     };
 
     describe('When all data points are non-null', () => {

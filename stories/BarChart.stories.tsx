@@ -3,6 +3,7 @@ import BarChart, { BarChartProps } from '../src/components/BarChart/BarChart';
 import { Placement } from '../src/enums/Placement';
 import DataType from '../src/enums/DataType';
 import AnimationEasingType from '../src/enums/AnimationEasingFunction';
+import { DataPoint } from '../src/__types__/seriesTypes';
 
 const styles = {
     width: '70vw',
@@ -30,7 +31,7 @@ const simpleBarChartProps: BarChartProps = {
                 },
                 {
                     x: 2,
-                    y: 30,
+                    y: -30,
                 },
             ],
         },
@@ -47,6 +48,13 @@ const simpleBarChartProps: BarChartProps = {
         margin: 10,
         tickPlacement: Placement.Aligned,
         tickLength: 2,
+    },
+    fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => {
+        if (index < 2) {
+            return '#0FF';
+        }
+
+        return '#FF0';
     },
     animationEasingType: AnimationEasingType.None
 };
