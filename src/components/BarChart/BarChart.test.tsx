@@ -3,6 +3,7 @@ import TestRenderer from 'react-test-renderer';
 import BarChart, { BarChartProps } from './BarChart';
 import DataType from '../../enums/DataType';
 import AnimationEasingType from '../../enums/AnimationEasingFunction';
+import { DataPoint } from '../../__types__/seriesTypes';
 
 jest.mock('../XAxis/XAxis');
 jest.mock('../YAxis/YAxis');
@@ -40,6 +41,7 @@ describe('Bar Chart', () => {
             left: 10,
             right: 10
         },
+        fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => { return '#000 '},
         animationEasingType: AnimationEasingType.None
     }
     it('it renders consistently', () => {

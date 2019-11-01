@@ -74,6 +74,7 @@ exports[`Bar Chart it renders consistently 1`] = `
         },
       ]
     }
+    fillFormatter={[Function]}
     padding={
       Object {
         "bottom": 10,
