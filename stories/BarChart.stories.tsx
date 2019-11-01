@@ -11,31 +11,33 @@ const styles = {
 };
 const Container = ({ children }) => <div style={styles}>{children}</div>;
 
-const simpleBarChartProps: BarChartProps = {
-    title: 'My first bar chart',
-    data: [
-        {
-            seriesName: 'A',
-            type: {
-                x: DataType.NonNullNumeric,
-                y: DataType.NonNullNumeric,
-            },
-            points: [
-                {
-                    x: 0,
-                    y: 10,
-                },
-                {
-                    x: 1,
-                    y: 20,
-                },
-                {
-                    x: 2,
-                    y: -30,
-                },
-            ],
+const singleSeriesData = [
+    {
+        seriesName: 'A',
+        type: {
+            x: DataType.NonNullNumeric,
+            y: DataType.NonNullNumeric,
         },
-    ],
+        points: [
+            {
+                x: 0,
+                y: 10,
+            },
+            {
+                x: 1,
+                y: 20,
+            },
+            {
+                x: 2,
+                y: -30,
+            },
+        ],
+    },
+];
+
+const singleSeriesBarChartProps: BarChartProps = {
+    title: 'My first bar chart',
+    data: singleSeriesData,
     padding: { left: 10, right: 10, top: 10, bottom: 10 },
     xAxisConfig: {
         zeroIntercept: true,
@@ -50,44 +52,153 @@ const simpleBarChartProps: BarChartProps = {
         tickLength: 2,
     },
     fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => {
-        if (index < 2) {
-            return '#0FF';
+        if (seriesIndex === 0) {
+            if (index < 2) {
+                return '#0FF';
+            }
+
+            return '#FF0';
+        } else if (seriesIndex === 1) {
+            if (index < 2) {
+                return '#00F';
+            }
+
+            return '#F00';
         }
 
-        return '#FF0';
+        if (index < 2) {
+            return '#0F0';
+        }
+
+        return '#000';
     },
     animationEasingType: AnimationEasingType.None
 };
 
-const linearAnimationProps = { ...simpleBarChartProps, animationEasingType: AnimationEasingType.Linear};
-const elasticAnimationProps = { ...simpleBarChartProps, animationEasingType: AnimationEasingType.Elastic};
-const inExpoAnimationProps = { ...simpleBarChartProps, animationEasingType: AnimationEasingType.InExpo};
+const singleSeriesLinearAnimationProps = { ...singleSeriesBarChartProps, animationEasingType: AnimationEasingType.Linear};
+const singleSeriesElasticAnimationProps = { ...singleSeriesBarChartProps, animationEasingType: AnimationEasingType.Elastic};
+const singleSeriesInExpoAnimationProps = { ...singleSeriesBarChartProps, animationEasingType: AnimationEasingType.InExpo};
 
 export default {
     component: BarChart,
     title: 'Bar Chart',
 };
 
-export const noAnimationBarChart = () => (
+export const singleSeriesNoAnimationBarChart = () => (
     <Container>
-        <BarChart {...simpleBarChartProps}/>
+        <BarChart {...singleSeriesBarChartProps}/>
     </Container>  
 );
 
-export const linearAnimationBarChart = () => (
+export const singleSeriesLinearAnimationBarChart = () => (
     <Container>
-        <BarChart {...linearAnimationProps}/>
+        <BarChart {...singleSeriesLinearAnimationProps}/>
     </Container>  
 );
 
-export const elasticAnimationBarChart = () => (
+export const singleSeriesElasticAnimationBarChart = () => (
     <Container>
-        <BarChart {...elasticAnimationProps}/>
+        <BarChart {...singleSeriesElasticAnimationProps}/>
     </Container>
 );
 
-export const inExpoAnimationBarChart = () => (
+export const singleSeriesInExpoAnimationBarChart = () => (
     <Container>
-        <BarChart {...inExpoAnimationProps}/>
+        <BarChart {...singleSeriesInExpoAnimationProps}/>
+    </Container>
+);
+
+const multipleSeriesData = [
+    {
+        seriesName: 'A',
+        type: {
+            x: DataType.NonNullNumeric,
+            y: DataType.NonNullNumeric,
+        },
+        points: [
+            {
+                x: 0,
+                y: 10,
+            },
+            {
+                x: 1,
+                y: 20,
+            },
+            {
+                x: 2,
+                y: -30,
+            },
+        ],
+    },
+    {
+        seriesName: 'B',
+        type: {
+            x: DataType.NonNullNumeric,
+            y: DataType.NonNullNumeric,
+        },
+        points: [
+            {
+                x: 0,
+                y: -10,
+            },
+            {
+                x: 1,
+                y: 20,
+            },
+            {
+                x: 2,
+                y: 30,
+            },
+        ],
+    },
+    {
+        seriesName: 'C',
+        type: {
+            x: DataType.NonNullNumeric,
+            y: DataType.NonNullNumeric,
+        },
+        points: [
+            {
+                x: 0,
+                y: 10,
+            },
+            {
+                x: 1,
+                y: -20,
+            },
+            {
+                x: 2,
+                y: 30,
+            },
+        ],
+    },
+];
+
+const multipleSeriesBarChartProps = { ...singleSeriesBarChartProps, data: multipleSeriesData };
+const multipleSeriesLinearAnimationProps = { ...multipleSeriesBarChartProps, animationEasingType: AnimationEasingType.Linear};
+const multipleSeriesElasticAnimationProps = { ...multipleSeriesBarChartProps, animationEasingType: AnimationEasingType.Elastic};
+const multipleSeriesInExpoAnimationProps = { ...multipleSeriesBarChartProps, animationEasingType: AnimationEasingType.InExpo};
+
+export const multipleSeriesNoAnimationBarChart = () => (
+    <Container>
+        <BarChart {...multipleSeriesBarChartProps}/>
+    </Container>  
+);
+
+export const multipleSeriesLinearAnimationBarChart = () => (
+    <Container>
+        <BarChart {...multipleSeriesLinearAnimationProps}/>
+    </Container>  
+);
+
+export const multipleSeriesElasticAnimationBarChart = () => (
+    <Container>
+        <BarChart {...multipleSeriesElasticAnimationProps}/>
+    </Container>
+);
+
+export const multipleSeriesInExpoAnimationBarChart = () => (
+    <Container>
+        <BarChart {...multipleSeriesInExpoAnimationProps}/>
     </Container>
 );
