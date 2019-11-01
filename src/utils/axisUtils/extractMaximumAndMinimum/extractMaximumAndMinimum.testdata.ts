@@ -11,19 +11,19 @@ export const data: SeriesData[] = [
         points: [
             {
                 x: 0,
-                y: 0.1,
+                y1: 0.1,
             },
             {
                 x: 1,
-                y: -3.5,
+                y1: -3.5,
             },
             {
                 x: 2,
-                y: 10.9,
+                y1: 10.9,
             },
             {
                 x: 3,
-                y: -4.7,
+                y1: -4.7,
             },
         ],
     },
@@ -36,19 +36,19 @@ export const data: SeriesData[] = [
         points: [
             {
                 x: 0,
-                y: 10.1,
+                y1: 10.1,
             },
             {
                 x: 1,
-                y: 3.2,
+                y1: 3.2,
             },
             {
                 x: 2,
-                y: -15.9,
+                y1: -15.9,
             },
             {
                 x: 3,
-                y: 0.0,
+                y1: 0.0,
             },
         ],
     },
@@ -61,19 +61,19 @@ export const data: SeriesData[] = [
         points: [
             {
                 x: 0,
-                y: 0.2,
+                y1: 0.2,
             },
             {
                 x: 1,
-                y: 6.6,
+                y1: 6.6,
             },
             {
                 x: 2,
-                y: -1.2,
+                y1: -1.2,
             },
             {
                 x: 3,
-                y: 0.6,
+                y1: 0.6,
             },
         ],
     },
@@ -88,19 +88,19 @@ const nullEntry: SeriesData = {
     points: [
         {
             x: null,
-            y: 0.2,
+            y1: 0.2,
         },
         {
             x: 1,
-            y: null,
+            y1: null,
         },
         {
             x: 2,
-            y: -1.2,
+            y1: -1.2,
         },
         {
             x: 3,
-            y: 0.6,
+            y1: 0.6,
         },
     ],
 };
@@ -117,19 +117,19 @@ export const malformedData: SeriesData[] = [
         points: [
             {
                 x: null,
-                y: null,
+                y1: null,
             },
             {
                 x: null,
-                y: null,
+                y1: null,
             },
             {
                 x: null,
-                y: null,
+                y1: null,
             },
             {
                 x: null,
-                y: null,
+                y1: null,
             },
         ],
     },

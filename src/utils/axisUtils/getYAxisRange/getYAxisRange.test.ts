@@ -13,15 +13,15 @@ describe('getYAxisRange', () => {
             points: [
                 {
                     x: 0,
-                    y: 10,
+                    y1: 10,
                 },
                 {
                     x: 1,
-                    y: 20,
+                    y1: 20,
                 },
                 {
                     x: 2,
-                    y: 30,
+                    y1: 30,
                 },
             ],
         },

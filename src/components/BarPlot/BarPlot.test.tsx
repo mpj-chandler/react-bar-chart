@@ -6,6 +6,7 @@ import { Placement } from '../../enums/Placement';
 import DataType from '../../enums/DataType';
 import { AxisConfig } from '../../__types__/axisTypes';
 import AnimationEasingType from '../../enums/AnimationEasingFunction';
+import { DataPoint } from '../../__types__/seriesTypes';
 
 jest.mock('../Bar/Bar.tsx');
 
@@ -30,15 +31,15 @@ describe('BarPlot', () => {
                 points: [
                     {
                         x: 0,
-                        y: 10,
+                        y1: 10,
                     },
                     {
                         x: 1,
-                        y: 20,
+                        y1: 20,
                     },
                     {
                         x: 2,
-                        y: 30,
+                        y1: 30,
                     }
                 ],
             },
@@ -123,15 +124,15 @@ describe('BarPlot', () => {
                     points: [
                         {
                             x: null,
-                            y: 10,
+                            y1: 10,
                         },
                         {
                             x: 1,
-                            y: null,
+                            y1: null,
                         },
                         {
                             x: 2,
-                            y: 30,
+                            y1: 30,
                         }
                     ],
                 },

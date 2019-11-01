@@ -14,15 +14,15 @@ describe('getXAxisRange', () => {
                 points: [
                     {
                         x: 0,
-                        y: 10,
+                        y1: 10,
                     },
                     {
                         x: 1,
-                        y: 20,
+                        y1: 20,
                     },
                     {
                         x: 2,
-                        y: 30,
+                        y1: 30,
                     },
                 ],
             },
@@ -63,15 +63,15 @@ describe('getXAxisRange', () => {
                 points: [
                     {
                         x: 0,
-                        y: 10,
+                        y1: 10,
                     },
                     {
                         x: 1,
-                        y: 20,
+                        y1: 20,
                     },
                     {
                         x: 2,
-                        y: 30,
+                        y1: 30,
                     },
                 ],
             },
@@ -112,15 +112,15 @@ describe('getXAxisRange', () => {
                 points: [
                     {
                         x: 'A',
-                        y: 10,
+                        y1: 10,
                     },
                     {
                         x: 'B',
-                        y: 20,
+                        y1: 20,
                     },
                     {
                         x: 'C',
-                        y: 30,
+                        y1: 30,
                     },
                 ],
             },
@@ -192,15 +192,15 @@ describe('getXAxisRange', () => {
                 points: [
                     {
                         x: 'A',
-                        y: 10,
+                        y1: 10,
                     },
                     {
                         x: 'B',
-                        y: 20,
+                        y1: 20,
                     },
                     {
                         x: 'C',
-                        y: 30,
+                        y1: 30,
                     },
                 ],
             },

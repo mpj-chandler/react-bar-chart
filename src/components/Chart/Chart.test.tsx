@@ -1,6 +1,6 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
-import BarChart, { BarChartProps } from './BarChart';
+import Chart, { BarChartProps } from './Chart';
 import DataType from '../../enums/DataType';
 import AnimationEasingType from '../../enums/AnimationEasingFunction';
 import { DataPoint } from '../../__types__/seriesTypes';
@@ -22,15 +22,15 @@ describe('Bar Chart', () => {
                 points: [
                     {
                         x: 0,
-                        y: 10
+                        y1: 10
                     },
                     {
                         x: 1,
-                        y: 20
+                        y1: 20
                     },
                     {
                         x: 2,
-                        y: 30
+                        y1: 30
                     }
                 ]
             }
@@ -45,7 +45,7 @@ describe('Bar Chart', () => {
         animationEasingType: AnimationEasingType.None
     }
     it('it renders consistently', () => {
-        const component = TestRenderer.create(<BarChart {...props}/>)
+        const component = TestRenderer.create(<Chart {...props}/>)
 
         expect(component.toJSON()).toMatchSnapshot();
     })

@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './BarPlot.scss';
-import StackedBar from '../Bar/Bar';
+import styles from './StackedBarPlot.scss';
+import StackedBar from '../StackedBar/StackedBar';
 import { getYAxisRange } from '../../utils/axisUtils/getYAxisRange/getYAxisRange';
 import { getXAxisRange } from '../../utils/axisUtils/getXAxisRange/getXAxisRange';
 import { Placement } from '../../enums/Placement';
@@ -21,7 +21,7 @@ export interface BarPlotProps {
     animationEasingFunction: AnimationEasingType;
 }
 
-const BarPlot: React.FC<BarPlotProps> = (props: BarPlotProps) => {
+const StackedBarPlot: React.FC<BarPlotProps> = (props: BarPlotProps) => {
 
     const renderSeries: (seriesData: SeriesData, config: SeriesConfig) => React.ReactNode = (seriesData, config) => {
         return seriesData.points.map(
@@ -77,5 +77,5 @@ const BarPlot: React.FC<BarPlotProps> = (props: BarPlotProps) => {
     );
 }
 
-export default BarPlot;
+export default StackedBarPlot;
 

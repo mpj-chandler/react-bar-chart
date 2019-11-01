@@ -16,15 +16,15 @@ exports[`Bar Chart it renders consistently 1`] = `
           "points": Array [
             Object {
               "x": 0,
-              "y": 10,
+              "y1": 10,
             },
             Object {
               "x": 1,
-              "y": 20,
+              "y1": 20,
             },
             Object {
               "x": 2,
-              "y": 30,
+              "y1": 30,
             },
           ],
           "seriesName": "A",
@@ -55,15 +55,15 @@ exports[`Bar Chart it renders consistently 1`] = `
           "points": Array [
             Object {
               "x": 0,
-              "y": 10,
+              "y1": 10,
             },
             Object {
               "x": 1,
-              "y": 20,
+              "y1": 20,
             },
             Object {
               "x": 2,
-              "y": 30,
+              "y1": 30,
             },
           ],
           "seriesName": "A",
@@ -93,15 +93,15 @@ exports[`Bar Chart it renders consistently 1`] = `
           "points": Array [
             Object {
               "x": 0,
-              "y": 10,
+              "y1": 10,
             },
             Object {
               "x": 1,
-              "y": 20,
+              "y1": 20,
             },
             Object {
               "x": 2,
-              "y": 30,
+              "y1": 30,
             },
           ],
           "seriesName": "A",

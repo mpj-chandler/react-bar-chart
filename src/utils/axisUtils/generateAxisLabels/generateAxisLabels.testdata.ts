@@ -11,11 +11,11 @@ export const dataOne: SeriesData[] = [
         points: [
             {
                 x: 0,
-                y: 0.1,
+                y1: 0.1,
             },
             {
                 x: 1,
-                y: -3.5,
+                y1: -3.5,
             },
         ],
     },
@@ -28,11 +28,11 @@ export const dataOne: SeriesData[] = [
         points: [
             {
                 x: 0,
-                y: 10.1,
+                y1: 10.1,
             },
             {
                 x: 1,
-                y: 3.2,
+                y1: 3.2,
             },
         ],
     },
@@ -45,11 +45,11 @@ export const dataOne: SeriesData[] = [
         points: [
             {
                 x: 0,
-                y: 0.2,
+                y1: 0.2,
             },
             {
                 x: 1,
-                y: 6.6,
+                y1: 6.6,
             },
         ],
     },
@@ -65,11 +65,11 @@ export const dataTwo: SeriesData[] = [
         points: [
             {
                 x: -1,
-                y: 0.1,
+                y1: 0.1,
             },
             {
                 x: 1,
-                y: -3.5,
+                y1: -3.5,
             },
         ],
     },
@@ -82,11 +82,11 @@ export const dataTwo: SeriesData[] = [
         points: [
             {
                 x: 0,
-                y: 10.1,
+                y1: 10.1,
             },
             {
                 x: 1,
-                y: 3.2,
+                y1: 3.2,
             },
         ],
     },
@@ -99,11 +99,11 @@ export const dataTwo: SeriesData[] = [
         points: [
             {
                 x: 0,
-                y: 0.2,
+                y1: 0.2,
             },
             {
                 x: 1,
-                y: 6.6,
+                y1: 6.6,
             },
         ],
     },
@@ -118,19 +118,19 @@ const nullEntry: SeriesData = {
     points: [
         {
             x: null,
-            y: 0.2,
+            y1: 0.2,
         },
         {
             x: 1,
-            y: null,
+            y1: null,
         },
         {
             x: 2,
-            y: -1.2,
+            y1: -1.2,
         },
         {
             x: 3,
-            y: 0.6,
+            y1: 0.6,
         },
     ],
 };
@@ -147,19 +147,19 @@ export const malformedData: SeriesData[] = [
         points: [
             {
                 x: null,
-                y: null,
+                y1: null,
             },
             {
                 x: null,
-                y: null,
+                y1: null,
             },
             {
                 x: null,
-                y: null,
+                y1: null,
             },
             {
                 x: null,
-                y: null,
+                y1: null,
             },
         ],
     },
@@ -175,11 +175,11 @@ export const dataThree: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 0.1,
+                y1: 0.1,
             },
             {
                 x: 'B',
-                y: -3.5,
+                y1: -3.5,
             },
         ],
     },
@@ -192,11 +192,11 @@ export const dataThree: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 10.1,
+                y1: 10.1,
             },
             {
                 x: 'B',
-                y: 3.2,
+                y1: 3.2,
             },
         ],
     },
@@ -209,11 +209,11 @@ export const dataThree: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 0.2,
+                y1: 0.2,
             },
             {
                 x: 'B',
-                y: 6.6,
+                y1: 6.6,
             },
         ],
     },
@@ -229,11 +229,11 @@ export const dataFour: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 0.1,
+                y1: 0.1,
             },
             {
                 x: 'B',
-                y: -3.5,
+                y1: -3.5,
             },
         ],
     },
@@ -246,11 +246,11 @@ export const dataFour: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 10.1,
+                y1: 10.1,
             },
             {
                 x: 'B',
-                y: 3.2,
+                y1: 3.2,
             },
         ],
     },
@@ -263,11 +263,11 @@ export const dataFour: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 0.2,
+                y1: 0.2,
             },
             {
                 x: 'B',
-                y: 6.6,
+                y1: 6.6,
             },
         ],
     },
@@ -283,11 +283,11 @@ export const badData: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 0.1,
+                y1: 0.1,
             },
             {
                 x: 'B',
-                y: -3.5,
+                y1: -3.5,
             },
         ],
     },
@@ -300,11 +300,11 @@ export const badData: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 10.1,
+                y1: 10.1,
             },
             {
                 x: 'B',
-                y: 3.2,
+                y1: 3.2,
             },
         ],
     },
@@ -317,11 +317,11 @@ export const badData: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 0.2,
+                y1: 0.2,
             },
             {
                 x: 'B',
-                y: 6.6,
+                y1: 6.6,
             },
         ],
     },
@@ -337,11 +337,11 @@ export const unknownData: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 0.1,
+                y1: 0.1,
             },
             {
                 x: 'B',
-                y: -3.5,
+                y1: -3.5,
             },
         ],
     },
@@ -354,11 +354,11 @@ export const unknownData: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 10.1,
+                y1: 10.1,
             },
             {
                 x: 'B',
-                y: 3.2,
+                y1: 3.2,
             },
         ],
     },
@@ -371,11 +371,11 @@ export const unknownData: SeriesData[] = [
         points: [
             {
                 x: 'A',
-                y: 0.2,
+                y1: 0.2,
             },
             {
                 x: 'B',
-                y: 6.6,
+                y1: 6.6,
             },
         ],
     },

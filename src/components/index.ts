@@ -1,6 +1,6 @@
 import AxisTickLabel from './AxisTickLabel/AxisTickLabel';
 import Bar from './Bar/Bar';
-import BarChart from './BarChart/BarChart';
+import Chart from './Chart/Chart';
 import BarPlot from './BarPlot/BarPlot';
 import XAxis from './XAxis/XAxis';
 import YAxis from './YAxis/YAxis';
@@ -8,7 +8,7 @@ import YAxis from './YAxis/YAxis';
 export {
     AxisTickLabel,
     Bar,
-    BarChart,
+    Chart as BarChart,
     BarPlot,
     XAxis,
     YAxis

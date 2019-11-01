@@ -5,26 +5,24 @@ import { Placement } from '../enums/Placement';
 
 export interface DataPoint {
     tag?: string;
+    y0?: number | null;
+    y1: number | null;
 }
 
 export interface NamedDataPoint extends DataPoint {
-    x: string;
-    y: number;
+    x: string;    
 }
 
 export interface DateIndexedDataPoint extends DataPoint {
     x: Date;
-    y: number;
 }
 
 export interface NumericDataPoint extends DataPoint {
-    x: number | null;
-    y: number | null;
+    x: number;
 }
 
 export interface NonNullNumericDataPoint extends NumericDataPoint {
     x: number;
-    y: number;
 }
 
 export interface SeriesData {

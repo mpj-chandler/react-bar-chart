@@ -1,6 +1,6 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
-import Bar, { BarProps } from './Bar';
+import Bar, { BarProps } from './StackedBar';
 import { Placement } from '../../enums/Placement';
 import DataType from '../../enums/DataType';
 import AnimationEasingType from '../../enums/AnimationEasingFunction';

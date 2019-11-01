@@ -9,7 +9,7 @@ function extractMaximumAndMinimum(data: SeriesData[], axis: Axis): AxisRange {
     data.forEach((seriesData: SeriesData) => {
         seriesData.points.forEach((point: DataPoint) => {
             const numericPoint = (point as NumericDataPoint);
-            const value = axis === Axis.XAxis ? numericPoint.x : numericPoint.y;
+            const value = axis === Axis.XAxis ? numericPoint.x : numericPoint.y1;
             if ( value !== null ) {
                 if (min === null || value < min) {
                     min = value;

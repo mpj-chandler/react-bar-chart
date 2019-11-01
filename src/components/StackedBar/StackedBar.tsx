@@ -49,7 +49,7 @@ function getY(height: number, yStart: number, value: number) {
     return yStart;
 }
 
-const StackedBar: React.FC<BarProps> = (props: BarProps) => {
+const Bar: React.FC<BarProps> = (props: BarProps) => {
 
     const x = getBarXPosition(props);
     const height = getBarEndingHeight(props);
@@ -68,7 +68,7 @@ const StackedBar: React.FC<BarProps> = (props: BarProps) => {
     return (
         <rect
             x={`${x - props.width / 2}%`}
-            y={`${getY(animation * height, yStart, props.point.y1)}%`}
+            y={`${getY(animation * height, yStart, props.point.y1) + props.point.y0}%`}
             height={`${props.point.y1 < 0 ? -1 * animation * height : animation * height}%`}
             width={`${props.width / props.numSeries}%`}
             fill={fill}
@@ -78,4 +78,4 @@ const StackedBar: React.FC<BarProps> = (props: BarProps) => {
     );
 }
 
-export default StackedBar;
+export default Bar;
