@@ -55,7 +55,7 @@ const Chart: React.FC<BarChartProps> = (props: BarChartProps) => {
             <div className={styles.BarChart__title}>{props.title}</div>
             <YAxis
                 title={'YAxis'}
-                data={props.data}
+                data={props.type === ChartType.StackedBarChart ? stackSeries(props.data) : props.data}
                 config={props.yAxisConfig}
                 padding={props.padding}
             />

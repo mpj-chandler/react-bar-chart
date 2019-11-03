@@ -27,7 +27,7 @@ describe('getYAxisRange', () => {
         },
     ];
 
-    describe('When not provided with a config object', () => {
+    describe('When not provided with a config object and data containing only y1 values', () => {
         it('it extracts the series maximum and minimum correctly', () => {
             const range = getYAxisRange(data);
 
@@ -47,6 +47,36 @@ describe('getYAxisRange', () => {
                 });
 
             expect(range).toStrictEqual({ max: 150, min: 2 });
+        });
+    });
+
+    describe('When not provided with a config object and data containing y0 and y1 values', () => {
+        const stackedData = [
+            {
+                ...data[0],
+                points: [
+                    {
+                        x: 0,
+                        y0: 30,
+                        y1: 10,
+                    },
+                    {
+                        x: 1,
+                        y0:40,
+                        y1: 20,
+                    },
+                    {
+                        x: 2,
+                        y0:50,
+                        y1: 30,
+                    },
+                ]
+            }
+        ]
+        it('it extracts the series maximum and minimum correctly', () => {
+            const range = getYAxisRange(stackedData);
+
+            expect(range).toStrictEqual({ max: 80, min: 40 });
         });
     });
 });

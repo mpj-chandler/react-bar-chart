@@ -128,7 +128,7 @@ const multipleSeriesData = [
             },
             {
                 x: 2,
-                y1: -30,
+                y1: 30,
             },
         ],
     },
@@ -141,7 +141,7 @@ const multipleSeriesData = [
         points: [
             {
                 x: 0,
-                y1: -10,
+                y1: 10,
             },
             {
                 x: 1,
@@ -166,7 +166,7 @@ const multipleSeriesData = [
             },
             {
                 x: 1,
-                y1: -20,
+                y1: 20,
             },
             {
                 x: 2,

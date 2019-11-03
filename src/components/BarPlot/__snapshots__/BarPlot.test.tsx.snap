@@ -654,46 +654,6 @@ exports[`BarPlot When some data points are null it renders consistently with def
       animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
       fillFormatter={[Function]}
-      index={1}
-      numBars={3}
-      numSeries={1}
-      padding={
-        Object {
-          "bottom": 10,
-          "left": 10,
-          "right": 10,
-          "top": 10,
-        }
-      }
-      placement={0}
-      point={
-        Object {
-          "x": 1,
-          "y": null,
-        }
-      }
-      seriesIndex={0}
-      stroke="black"
-      width={10}
-      xRange={
-        Object {
-          "max": 2,
-          "min": 1,
-        }
-      }
-      yRange={
-        Object {
-          "max": undefined,
-          "min": undefined,
-        }
-      }
-    >
-      Mock Bar 
-    </div>
-    <div
-      animationEasingType="none"
-      dataType="NON_NULL_NUMERIC"
-      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -709,7 +669,7 @@ exports[`BarPlot When some data points are null it renders consistently with def
       point={
         Object {
           "x": 2,
-          "y": 30,
+          "y1": 30,
         }
       }
       seriesIndex={0}
@@ -723,8 +683,8 @@ exports[`BarPlot When some data points are null it renders consistently with def
       }
       yRange={
         Object {
-          "max": undefined,
-          "min": undefined,
+          "max": 30,
+          "min": 10,
         }
       }
     >
@@ -743,46 +703,6 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
       fillFormatter={[Function]}
-      index={1}
-      numBars={3}
-      numSeries={1}
-      padding={
-        Object {
-          "bottom": 10,
-          "left": 10,
-          "right": 10,
-          "top": 10,
-        }
-      }
-      placement={0}
-      point={
-        Object {
-          "x": 1,
-          "y": null,
-        }
-      }
-      seriesIndex={0}
-      stroke="black"
-      width={10}
-      xRange={
-        Object {
-          "max": 2,
-          "min": 1,
-        }
-      }
-      yRange={
-        Object {
-          "max": undefined,
-          "min": undefined,
-        }
-      }
-    >
-      Mock Bar 
-    </div>
-    <div
-      animationEasingType="none"
-      dataType="NON_NULL_NUMERIC"
-      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -798,7 +718,7 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       point={
         Object {
           "x": 2,
-          "y": 30,
+          "y1": 30,
         }
       }
       seriesIndex={0}
@@ -812,8 +732,8 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       }
       yRange={
         Object {
-          "max": undefined,
-          "min": undefined,
+          "max": 30,
+          "min": 10,
         }
       }
     >
@@ -832,46 +752,6 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
       fillFormatter={[Function]}
-      index={1}
-      numBars={3}
-      numSeries={1}
-      padding={
-        Object {
-          "bottom": 10,
-          "left": 10,
-          "right": 10,
-          "top": 10,
-        }
-      }
-      placement={0}
-      point={
-        Object {
-          "x": 1,
-          "y": null,
-        }
-      }
-      seriesIndex={0}
-      stroke="black"
-      width={10}
-      xRange={
-        Object {
-          "max": 2,
-          "min": 1,
-        }
-      }
-      yRange={
-        Object {
-          "max": undefined,
-          "min": undefined,
-        }
-      }
-    >
-      Mock Bar 
-    </div>
-    <div
-      animationEasingType="none"
-      dataType="NON_NULL_NUMERIC"
-      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -887,7 +767,7 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       point={
         Object {
           "x": 2,
-          "y": 30,
+          "y1": 30,
         }
       }
       seriesIndex={0}
@@ -901,8 +781,8 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       }
       yRange={
         Object {
-          "max": undefined,
-          "min": undefined,
+          "max": 30,
+          "min": 10,
         }
       }
     >
@@ -921,46 +801,6 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
       fillFormatter={[Function]}
-      index={1}
-      numBars={3}
-      numSeries={1}
-      padding={
-        Object {
-          "bottom": 10,
-          "left": 10,
-          "right": 10,
-          "top": 10,
-        }
-      }
-      placement={1}
-      point={
-        Object {
-          "x": 1,
-          "y": null,
-        }
-      }
-      seriesIndex={0}
-      stroke="black"
-      width={10}
-      xRange={
-        Object {
-          "max": 2.3333333333333335,
-          "min": 1,
-        }
-      }
-      yRange={
-        Object {
-          "max": undefined,
-          "min": undefined,
-        }
-      }
-    >
-      Mock Bar 
-    </div>
-    <div
-      animationEasingType="none"
-      dataType="NON_NULL_NUMERIC"
-      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -976,7 +816,7 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       point={
         Object {
           "x": 2,
-          "y": 30,
+          "y1": 30,
         }
       }
       seriesIndex={0}
@@ -990,8 +830,8 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       }
       yRange={
         Object {
-          "max": undefined,
-          "min": undefined,
+          "max": 30,
+          "min": 10,
         }
       }
     >
@@ -1010,46 +850,6 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       animationEasingType="none"
       dataType="NON_NULL_NUMERIC"
       fillFormatter={[Function]}
-      index={1}
-      numBars={3}
-      numSeries={1}
-      padding={
-        Object {
-          "bottom": 10,
-          "left": 10,
-          "right": 10,
-          "top": 10,
-        }
-      }
-      placement={1}
-      point={
-        Object {
-          "x": 1,
-          "y": null,
-        }
-      }
-      seriesIndex={0}
-      stroke="black"
-      width={10}
-      xRange={
-        Object {
-          "max": 2.3333333333333335,
-          "min": 1,
-        }
-      }
-      yRange={
-        Object {
-          "max": undefined,
-          "min": undefined,
-        }
-      }
-    >
-      Mock Bar 
-    </div>
-    <div
-      animationEasingType="none"
-      dataType="NON_NULL_NUMERIC"
-      fillFormatter={[Function]}
       index={2}
       numBars={3}
       numSeries={1}
@@ -1065,7 +865,7 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       point={
         Object {
           "x": 2,
-          "y": 30,
+          "y1": 30,
         }
       }
       seriesIndex={0}
@@ -1079,8 +879,8 @@ exports[`BarPlot When some data points are null it renders consistently with tic
       }
       yRange={
         Object {
-          "max": undefined,
-          "min": undefined,
+          "max": 30,
+          "min": 10,
         }
       }
     >

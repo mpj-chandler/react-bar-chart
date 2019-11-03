@@ -47,45 +47,36 @@ exports[`Bar Chart it renders consistently 1`] = `
   >
     Mock YAxis 
   </div>
-  <div
-    animationEasingFunction="none"
-    data={
-      Array [
-        Object {
-          "points": Array [
-            Object {
-              "x": 0,
-              "y1": 10,
-            },
-            Object {
-              "x": 1,
-              "y1": 20,
-            },
-            Object {
-              "x": 2,
-              "y1": 30,
-            },
-          ],
-          "seriesName": "A",
-          "type": Object {
-            "x": "NON_NULL_NUMERIC",
-            "y": "NON_NULL_NUMERIC",
-          },
-        },
-      ]
-    }
-    fillFormatter={[Function]}
-    padding={
-      Object {
-        "bottom": 10,
-        "left": 10,
-        "right": 10,
-        "top": 10,
-      }
-    }
+  <svg
+    className="BarPlot"
   >
-    Mock BarPlot 
-  </div>
+    <g>
+      <rect
+        fill="#000 "
+        height="40%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="NaN%"
+      />
+      <rect
+        fill="#000 "
+        height="80%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="NaN%"
+      />
+      <rect
+        fill="#000 "
+        height="120%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="NaN%"
+      />
+    </g>
+  </svg>
   <div
     data={
       Array [

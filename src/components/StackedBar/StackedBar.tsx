@@ -37,7 +37,7 @@ function getBarEndingHeight(props: BarProps): number {
 }
 
 function getZeroPoint(props: BarProps): number {
-    return (props.yRange.max / (props.yRange.max - props.yRange.min));
+    return ((props.yRange.max - props.point.y0) / (props.yRange.max - props.yRange.min));
 }
 
 function getY(height: number, yStart: number, value: number) {
@@ -59,7 +59,6 @@ const Bar: React.FC<BarProps> = (props: BarProps) => {
         if (props.yRange.max <= 0) {
             return props.padding.top;
         }
-
         return ((100 - (props.padding.top + props.padding.bottom)) * zeroPoint) + props.padding.top;
     })();
 
@@ -68,7 +67,7 @@ const Bar: React.FC<BarProps> = (props: BarProps) => {
     return (
         <rect
             x={`${x - props.width / 2}%`}
-            y={`${getY(animation * height, yStart, props.point.y1) + props.point.y0}%`}
+            y={`${getY(animation * height, yStart, props.point.y1)}%`}
             height={`${props.point.y1 < 0 ? -1 * animation * height : animation * height}%`}
             width={`${props.width / props.numSeries}%`}
             fill={fill}

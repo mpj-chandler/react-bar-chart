@@ -7,7 +7,7 @@ exports[`Bar When dealing with an animated graph it renders consistently 1`] = `
   stroke="anything"
   width="100%"
   x="-39.2%"
-  y="90%"
+  y="NaN%"
 />
 `;
 
@@ -40,7 +40,7 @@ exports[`Bar When dealing with named data types When all values on the yAxis are
   stroke="anything"
   width="100%"
   x="-39.2%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -51,7 +51,7 @@ exports[`Bar When dealing with named data types When all values on the yAxis are
   stroke="anything"
   width="100%"
   x="-39.2%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -62,7 +62,7 @@ exports[`Bar When dealing with named data types When all values on the yAxis are
   stroke="anything"
   width="100%"
   x="-25.866666666666667%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -73,7 +73,7 @@ exports[`Bar When dealing with named data types When all values on the yAxis are
   stroke="anything"
   width="100%"
   x="-39.2%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -84,7 +84,7 @@ exports[`Bar When dealing with named data types When the yAxis spans positive an
   stroke="anything"
   width="100%"
   x="-39.2%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -95,7 +95,7 @@ exports[`Bar When dealing with named data types When the yAxis spans positive an
   stroke="anything"
   width="100%"
   x="-25.866666666666667%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -106,7 +106,7 @@ exports[`Bar When dealing with named data types When the yAxis spans positive an
   stroke="anything"
   width="100%"
   x="-39.2%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -128,7 +128,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -150,7 +150,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-18.666666666666668%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -172,7 +172,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -183,7 +183,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -194,7 +194,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -205,7 +205,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-18.666666666666668%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -216,7 +216,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-18.666666666666668%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -227,7 +227,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -238,7 +238,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -249,7 +249,7 @@ exports[`Bar When dealing with numeric data types When the yAxis spans positive 
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -260,7 +260,7 @@ exports[`Bar When dealing with numeric data types When the yAxis spans positive 
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -271,7 +271,7 @@ exports[`Bar When dealing with numeric data types When the yAxis spans positive 
   stroke="anything"
   width="100%"
   x="-18.666666666666668%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -282,7 +282,7 @@ exports[`Bar When dealing with numeric data types When the yAxis spans positive 
   stroke="anything"
   width="100%"
   x="-18.666666666666668%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -293,7 +293,7 @@ exports[`Bar When dealing with numeric data types When the yAxis spans positive 
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
 
@@ -304,6 +304,6 @@ exports[`Bar When dealing with numeric data types When the yAxis spans positive 
   stroke="anything"
   width="100%"
   x="-32%"
-  y="50%"
+  y="NaN%"
 />
 `;
