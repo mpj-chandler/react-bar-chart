@@ -2,7 +2,7 @@
 
 exports[`Bar When dealing with an animated graph it renders consistently 1`] = `
 <rect
-  fill="#000 "
+  fill="#FFF"
   height="0%"
   stroke="anything"
   width="100%"
@@ -18,7 +18,7 @@ exports[`Bar When dealing with named data types When all values on the yAxis are
   stroke="anything"
   width="100%"
   x="-39.2%"
-  y="Infinity%"
+  y="10%"
 />
 `;
 
@@ -29,7 +29,7 @@ exports[`Bar When dealing with named data types When all values on the yAxis are
   stroke="anything"
   width="100%"
   x="-25.866666666666667%"
-  y="Infinity%"
+  y="10%"
 />
 `;
 
@@ -117,7 +117,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-32%"
-  y="Infinity%"
+  y="10%"
 />
 `;
 
@@ -139,7 +139,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-18.666666666666668%"
-  y="Infinity%"
+  y="10%"
 />
 `;
 
@@ -161,7 +161,7 @@ exports[`Bar When dealing with numeric data types When all values on the yAxis a
   stroke="anything"
   width="100%"
   x="-32%"
-  y="Infinity%"
+  y="10%"
 />
 `;
 

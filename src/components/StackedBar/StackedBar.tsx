@@ -4,11 +4,10 @@ import { Placement } from '../../enums/Placement';
 import { NonNullNumericDataPoint, NamedDataPoint, DateIndexedDataPoint, DataPoint } from '../../__types__/seriesTypes';
 import { AxisRange } from '../../__types__/axisTypes';
 import { Padding } from '../../__types__/styling';
-import { getBarXPosition } from './utils/getBarXPosition';
 import DataType from '../../enums/DataType';
 import AnimationEasingType from '../../enums/AnimationEasingFunction';
 
-export interface BarProps {
+export interface StackedBarProps {
     point: NonNullNumericDataPoint | NamedDataPoint | DateIndexedDataPoint;
     index: number;
     seriesIndex: number;
@@ -21,11 +20,11 @@ export interface BarProps {
     numBars: number;
     numSeries: number;
     placement: Placement;
-    fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
-    animationEasingType: AnimationEasingType;
+    fillFormatter?: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
+    animationEasingType?: AnimationEasingType;
 }
 
-function getBarEndingHeight(props: BarProps): number {
+function getStackedBarEndingHeight(props: StackedBarProps): number {
     const yMin = Math.min(0, Math.max(0, props.yRange.min));
     const totalVerticalPadding = props.padding.top + props.padding.bottom;
 
@@ -36,45 +35,93 @@ function getBarEndingHeight(props: BarProps): number {
     return (100 - totalVerticalPadding) * ((props.point.y1 - yMin) / (props.yRange.max - props.yRange.min));
 }
 
-function getZeroPoint(props: BarProps): number {
-    return ((props.yRange.max - props.point.y0) / (props.yRange.max - props.yRange.min));
+function getStackedBarXPosition(props: StackedBarProps): number {
+    const interval = props.xRange.max - props.xRange.min;
+    const totalHorizontalPadding = props.padding.right + props.padding.left;
+
+    switch (props.dataType) {
+        case DataType.NonNullNumeric:
+            return getNumericStackedBarXPosition(props, interval, totalHorizontalPadding);
+        case DataType.Named:
+            return getNamedStackedBarXPosition(props, interval, totalHorizontalPadding);
+        default:
+            throw new Error('Error in rendering bar! Unrecognized data type!');
+    }
 }
 
-function getY(height: number, yStart: number, value: number) {
+function getNumericStackedBarXPosition(props: StackedBarProps, interval: number, totalHorizontalPadding: number): number {
+    
+    if (props.placement === Placement.Bucket) {
+        const step = 0.5 * interval / props.numBars;
 
-    if (value >= 0) {
-        return yStart - height;
+        return ((100 - totalHorizontalPadding)
+            * ((step + (props.point as NonNullNumericDataPoint).x) / interval))
+            + props.padding.left;
     }
 
-    return yStart;
+    return ((100 - totalHorizontalPadding)
+        * ((props.point as NonNullNumericDataPoint).x / interval))
+        + props.padding.left;
 }
 
-const Bar: React.FC<BarProps> = (props: BarProps) => {
+function getNamedStackedBarXPosition(props: StackedBarProps, interval: number, totalHorizontalPadding: number): number {
 
-    const x = getBarXPosition(props);
-    const height = getBarEndingHeight(props);
-    const zeroPoint = getZeroPoint(props);
-    const animation = props.animationEasingType === AnimationEasingType.None ? 1 : useAnimation(props.animationEasingType, 600, 0);
+    if (props.placement === Placement.Bucket) {
+        const step = 0.5 * interval / props.numBars;
+
+        return ((100 - totalHorizontalPadding)
+            * (step + (props.index)) / interval)
+            + props.padding.left;
+    }
+
+    return ((100 - totalHorizontalPadding)
+        * (props.index / interval)
+        + props.padding.left);
+}
+
+
+
+function getZeroPoint(props: StackedBarProps, animation: number): number {
+    return ((props.yRange.max - animation * props.point.y0) / (props.yRange.max - props.yRange.min));
+}
+
+function getY(animation: number, height: number, yStart: number, value: number) {
+    return yStart - (animation * height);
+}
+
+const defaultProps: Partial<StackedBarProps> = {
+    animationEasingType: AnimationEasingType.None,
+    fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => '#FFF',
+};
+
+const StackedBar: React.FC<StackedBarProps> = (props: StackedBarProps) => {
+
+    const adjProps: StackedBarProps = { ...defaultProps, ...props };
+
+    const x = getStackedBarXPosition(props);
+    const height = getStackedBarEndingHeight(adjProps);
+    const animation = adjProps.animationEasingType === AnimationEasingType.None ? 1 : useAnimation(adjProps.animationEasingType, 600, 0);
+    const zeroPoint = getZeroPoint(adjProps, animation);
     const yStart = (() => {
-        if (props.yRange.max <= 0) {
-            return props.padding.top;
+        if (adjProps.yRange.max <= 0) {
+            return adjProps.padding.top;
         }
-        return ((100 - (props.padding.top + props.padding.bottom)) * zeroPoint) + props.padding.top;
+        return ((100 - (adjProps.padding.top + adjProps.padding.bottom)) * zeroPoint) + adjProps.padding.top;
     })();
 
-    const fill = props.fillFormatter(props.seriesIndex, props.point, props.index);
+    const fill = adjProps.fillFormatter(adjProps.seriesIndex, adjProps.point, adjProps.index);
 
     return (
         <rect
-            x={`${x - props.width / 2}%`}
-            y={`${getY(animation * height, yStart, props.point.y1)}%`}
-            height={`${props.point.y1 < 0 ? -1 * animation * height : animation * height}%`}
-            width={`${props.width / props.numSeries}%`}
+            x={`${x - adjProps.width / 2}%`}
+            y={`${getY(animation, height, yStart, adjProps.point.y1)}%`}
+            height={`${animation * height}%`}
+            width={`${adjProps.width}%`}
             fill={fill}
-            stroke={props.stroke}
+            stroke={adjProps.stroke}
         >
         </rect>
     );
 }
 
-export default Bar;
+export default StackedBar;

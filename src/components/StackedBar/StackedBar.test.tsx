@@ -1,6 +1,6 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
-import Bar, { BarProps } from './StackedBar';
+import StackedBar, { StackedBarProps } from './StackedBar';
 import { Placement } from '../../enums/Placement';
 import DataType from '../../enums/DataType';
 import AnimationEasingType from '../../enums/AnimationEasingFunction';
@@ -10,7 +10,7 @@ jest.useFakeTimers();
 
 describe('Bar', () => {
     describe('When dealing with numeric data types', () => {
-        const props: BarProps = {
+        const props: StackedBarProps = {
             point: { x: 10, y1: 100 },
             index: 1,
             dataType: DataType.NonNullNumeric,
@@ -27,9 +27,7 @@ describe('Bar', () => {
             placement: Placement.Aligned,
             numBars: 3,
             seriesIndex: 0,
-            numSeries: 1,
-            fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => { return '#000 '},
-            animationEasingType: AnimationEasingType.None
+            numSeries: 1
         };
 
         describe('When all values on the yAxis are positive', () => {
@@ -47,7 +45,7 @@ describe('Bar', () => {
         });
 
         describe('When all values on the yAxis are negative', () => {
-            const newProps: BarProps = { ...props, yRange: { min: -100, max: -100 } };
+            const newProps: StackedBarProps = { ...props, yRange: { min: -100, max: -100 } };
 
             it('it renders consistently with defaults', () => {
                 checkSnapshot(newProps);
@@ -64,7 +62,7 @@ describe('Bar', () => {
 
 
         describe('When the yAxis spans positive and negative values', () => {
-            const newProps: BarProps = { ...props, yRange: { min: -100, max: 100 } };
+            const newProps: StackedBarProps = { ...props, yRange: { min: -100, max: 100 } };
 
             it('it renders consistently with defaults', () => {
                 checkSnapshot(props);
@@ -81,7 +79,7 @@ describe('Bar', () => {
     });
 
     describe('When dealing with named data types', () => {
-        const props: BarProps = {
+        const props: StackedBarProps = {
             point: { x: 'Anything', y1: 100 },
             index: 1,
             dataType: DataType.Named,
@@ -119,7 +117,7 @@ describe('Bar', () => {
         });
 
         describe('When all values on the yAxis are negative', () => {
-            const newProps: BarProps = { ...props, yRange: { min: -100, max: -100 } };
+            const newProps: StackedBarProps = { ...props, yRange: { min: -100, max: -100 } };
 
             it('it renders consistently with defaults', () => {
                 checkSnapshot(props);
@@ -136,7 +134,7 @@ describe('Bar', () => {
 
 
         describe('When the yAxis spans positive and negative values', () => {
-            const newProps: BarProps = { ...props, yRange: { min: -100, max: 100 } };
+            const newProps: StackedBarProps = { ...props, yRange: { min: -100, max: 100 } };
 
             it('it renders consistently with defaults', () => {
                 checkSnapshot(props);
@@ -153,7 +151,7 @@ describe('Bar', () => {
     });
 
     describe('When dealing with numeric data types', () => {
-        const props: BarProps = {
+        const props: StackedBarProps = {
             point: { x: 10, y1: 100 },
             index: 1,
             dataType: DataType.NonNullNumeric,
@@ -191,7 +189,7 @@ describe('Bar', () => {
         });
 
         describe('When all values on the yAxis are negative', () => {
-            const newProps: BarProps = { ...props, yRange: { min: -100, max: -100 } };
+            const newProps: StackedBarProps = { ...props, yRange: { min: -100, max: -100 } };
 
             it('it renders consistently with defaults', () => {
                 checkSnapshot(props);
@@ -208,7 +206,7 @@ describe('Bar', () => {
 
 
         describe('When the yAxis spans positive and negative values', () => {
-            const newProps: BarProps = { ...props, yRange: { min: -100, max: 100 } };
+            const newProps: StackedBarProps = { ...props, yRange: { min: -100, max: 100 } };
 
             it('it renders consistently with defaults', () => {
                 checkSnapshot(props);
@@ -225,7 +223,7 @@ describe('Bar', () => {
     });
 
     describe('When dealing with an animated graph', () => {
-        const props: BarProps = {
+        const props: StackedBarProps = {
             point: { x: 'Anything', y1: 100 },
             index: 1,
             dataType: DataType.Named,
@@ -255,7 +253,7 @@ describe('Bar', () => {
 
     describe('When attempting a render with an unknown data type', () => {
         it('it throws an error', () => {
-            const props: BarProps = {
+            const props: StackedBarProps = {
                 index: 1,
                 dataType: DataType.DateIndexed,
                 point: { x: 'Anything', y1: -50 },
@@ -277,13 +275,13 @@ describe('Bar', () => {
                 animationEasingType: AnimationEasingType.None
             };
 
-            expect(() => TestRenderer.create(<Bar {...props} placement={Placement.Aligned}/>)).toThrowError('Error in rendering bar! Unrecognized data type!');
+            expect(() => TestRenderer.create(<StackedBar {...props} placement={Placement.Aligned}/>)).toThrowError('Error in rendering bar! Unrecognized data type!');
         });
     });
 });
 
-function checkSnapshot(props: BarProps) {
-    const component = TestRenderer.create(<Bar {...props}/>);
+function checkSnapshot(props: StackedBarProps) {
+    const component = TestRenderer.create(<StackedBar {...props}/>);
     expect(component.toJSON()).toMatchSnapshot();
 }
 

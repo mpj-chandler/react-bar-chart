@@ -12,16 +12,16 @@ import { SeriesData, NonNullNumericDataPoint, NumericDataPoint, NamedDataPoint, 
 import { AxisConfig, AxisRange } from '../../__types__/axisTypes';
 import AnimationEasingType from '../../enums/AnimationEasingFunction';
 
-export interface BarPlotProps {
+export interface StackedBarPlotProps {
     padding: Padding;
     data: SeriesData[];
     xAxisConfig?: AxisConfig;
     yAxisConfig?: AxisConfig;
-    fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
-    animationEasingFunction: AnimationEasingType;
+    fillFormatter?: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
+    animationEasingFunction?: AnimationEasingType;
 }
 
-const StackedBarPlot: React.FC<BarPlotProps> = (props: BarPlotProps) => {
+const StackedBarPlot: React.FC<StackedBarPlotProps> = (props: StackedBarPlotProps) => {
 
     const renderSeries: (seriesData: SeriesData, config: SeriesConfig) => React.ReactNode = (seriesData, config) => {
         return seriesData.points.map(

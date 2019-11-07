@@ -47,7 +47,7 @@ describe('Bar', () => {
         });
 
         describe('When all values on the yAxis are negative', () => {
-            const newProps: BarProps = { ...props, yRange: { min: -100, max: -100 } };
+            const newProps: BarProps = { ...props, point: { x: 10, y1: -50}, yRange: { min: -100, max: -100 } };
 
             it('it renders consistently with defaults', () => {
                 checkSnapshot(newProps);
@@ -119,7 +119,7 @@ describe('Bar', () => {
         });
 
         describe('When all values on the yAxis are negative', () => {
-            const newProps: BarProps = { ...props, yRange: { min: -100, max: -100 } };
+            const newProps: BarProps = { ...props, point: { x: 10, y1: -50}, yRange: { min: -100, max: -100 } };
 
             it('it renders consistently with defaults', () => {
                 checkSnapshot(props);
@@ -191,7 +191,7 @@ describe('Bar', () => {
         });
 
         describe('When all values on the yAxis are negative', () => {
-            const newProps: BarProps = { ...props, yRange: { min: -100, max: -100 } };
+            const newProps: BarProps = { ...props, point: { x: 10, y1: -50}, yRange: { min: -100, max: -100 } };
 
             it('it renders consistently with defaults', () => {
                 checkSnapshot(props);
@@ -243,7 +243,6 @@ describe('Bar', () => {
             numBars: 3,
             seriesIndex: 0,
             numSeries: 1,
-            fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => { return '#000 '},
             animationEasingType: AnimationEasingType.Linear
         };
 

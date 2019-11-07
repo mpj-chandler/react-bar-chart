@@ -12,18 +12,18 @@ import ChartType from '../../enums/ChartType';
 import stackSeries from '../StackedBarPlot/StackedBarPlot.mapper';
 import StackedBarPlot from '../StackedBarPlot/StackedBarPlot';
 
-export interface BarChartProps {
+export interface ChartProps {
     data: SeriesData[];
     type: ChartType;
     title: string;
     padding: Padding;
     xAxisConfig?: AxisConfig;
     yAxisConfig?: AxisConfig;
-    fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
-    animationEasingType: AnimationEasingType;
+    fillFormatter?: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
+    animationEasingType?: AnimationEasingType;
 }
 
-const Chart: React.FC<BarChartProps> = (props: BarChartProps) => {
+const Chart: React.FC<ChartProps> = (props: ChartProps) => {
     const renderPlot = () => {
         if (props.type === ChartType.BarChart) {
             return (

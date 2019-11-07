@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Bar Chart it renders consistently 1`] = `
+exports[`Chart it renders consistently 1`] = `
 <div
   className="BarChart"
 >
@@ -33,6 +33,48 @@ exports[`Bar Chart it renders consistently 1`] = `
             "y": "NON_NULL_NUMERIC",
           },
         },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
       ]
     }
     padding={
@@ -53,27 +95,75 @@ exports[`Bar Chart it renders consistently 1`] = `
     <g>
       <rect
         fill="#000 "
-        height="40%"
+        height="10%"
         stroke="black"
         width="10%"
         x="5%"
-        y="NaN%"
+        y="90%"
       />
       <rect
         fill="#000 "
-        height="80%"
+        height="20%"
         stroke="black"
         width="10%"
         x="45%"
-        y="NaN%"
+        y="80%"
       />
       <rect
         fill="#000 "
-        height="120%"
+        height="30%"
         stroke="black"
         width="10%"
         x="85%"
-        y="NaN%"
+        y="70%"
+      />
+      <rect
+        fill="#000 "
+        height="10%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="80%"
+      />
+      <rect
+        fill="#000 "
+        height="20%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="60%"
+      />
+      <rect
+        fill="#000 "
+        height="30%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="40%"
+      />
+      <rect
+        fill="#000 "
+        height="10%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="70%"
+      />
+      <rect
+        fill="#000 "
+        height="20%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="40%"
+      />
+      <rect
+        fill="#000 "
+        height="30%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="10%"
       />
     </g>
   </svg>
@@ -96,6 +186,810 @@ exports[`Bar Chart it renders consistently 1`] = `
             },
           ],
           "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="XAxis"
+  >
+    Mock XAxis 
+  </div>
+</div>
+`;
+
+exports[`Chart it renders consistently 2`] = `
+<div
+  className="BarChart"
+>
+  <div
+    className="BarChart__title"
+  >
+    anything
+  </div>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="YAxis"
+  >
+    Mock YAxis 
+  </div>
+  <svg
+    className="BarPlot"
+  >
+    <g>
+      <rect
+        fill="#000 "
+        height="10%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="90%"
+      />
+      <rect
+        fill="#000 "
+        height="20%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="80%"
+      />
+      <rect
+        fill="#000 "
+        height="30%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="70%"
+      />
+      <rect
+        fill="#000 "
+        height="10%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="80%"
+      />
+      <rect
+        fill="#000 "
+        height="20%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="60%"
+      />
+      <rect
+        fill="#000 "
+        height="30%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="40%"
+      />
+      <rect
+        fill="#000 "
+        height="10%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="70%"
+      />
+      <rect
+        fill="#000 "
+        height="20%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="40%"
+      />
+      <rect
+        fill="#000 "
+        height="30%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="10%"
+      />
+    </g>
+  </svg>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="XAxis"
+  >
+    Mock XAxis 
+  </div>
+</div>
+`;
+
+exports[`Chart it renders consistently 3`] = `
+<div
+  className="BarChart"
+>
+  <div
+    className="BarChart__title"
+  >
+    anything
+  </div>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="YAxis"
+  >
+    Mock YAxis 
+  </div>
+  <div
+    animationEasingFunction="none"
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    fillFormatter={[Function]}
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+  >
+    Mock BarPlot 
+  </div>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="XAxis"
+  >
+    Mock XAxis 
+  </div>
+</div>
+`;
+
+exports[`Chart it renders consistently 4`] = `
+<div
+  className="BarChart"
+>
+  <div
+    className="BarChart__title"
+  >
+    anything
+  </div>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y0": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y0": 0,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y0": 0,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y0": 10,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y0": 20,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y0": 30,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y0": 20,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y0": 40,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y0": 60,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="YAxis"
+  >
+    Mock YAxis 
+  </div>
+  <svg
+    className="BarPlot"
+  >
+    <g>
+      <rect
+        fill="#000 "
+        height="10%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="90%"
+      />
+      <rect
+        fill="#000 "
+        height="20%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="80%"
+      />
+      <rect
+        fill="#000 "
+        height="30%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="70%"
+      />
+      <rect
+        fill="#000 "
+        height="10%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="80%"
+      />
+      <rect
+        fill="#000 "
+        height="20%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="60%"
+      />
+      <rect
+        fill="#000 "
+        height="30%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="40%"
+      />
+      <rect
+        fill="#000 "
+        height="10%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="70%"
+      />
+      <rect
+        fill="#000 "
+        height="20%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="40%"
+      />
+      <rect
+        fill="#000 "
+        height="30%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="10%"
+      />
+    </g>
+  </svg>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
           "type": Object {
             "x": "NON_NULL_NUMERIC",
             "y": "NON_NULL_NUMERIC",

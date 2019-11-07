@@ -1,0 +1,2353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StackedBarPlot When provided with patchy data it renders consistently 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`StackedBarPlot When provided with patchy data it renders consistently 2`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`StackedBarPlot When provided with patchy data it renders consistently 3`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`StackedBarPlot When provided with patchy data it renders consistently 4`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`StackedBarPlot When provided with valid data it renders consistently 1`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Aligned"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`StackedBarPlot When provided with valid data it renders consistently 2`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement="Bucket"
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`StackedBarPlot When provided with valid data it renders consistently 3`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={0}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.2,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;
+
+exports[`StackedBarPlot When provided with valid data it renders consistently 4`] = `
+<svg
+  className="BarPlot"
+>
+  <g>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={0}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={1}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={0}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 0,
+          "y1": 10,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={1}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 1,
+          "y1": 20,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+    <div
+      dataType="NON_NULL_NUMERIC"
+      index={2}
+      numBars={3}
+      numSeries={3}
+      padding={
+        Object {
+          "bottom": 10,
+          "left": 10,
+          "right": 10,
+          "top": 10,
+        }
+      }
+      placement={1}
+      point={
+        Object {
+          "x": 2,
+          "y1": 30,
+        }
+      }
+      seriesIndex={2}
+      stroke="black"
+      width={10}
+      xRange={
+        Object {
+          "max": 2.9333333333333336,
+          "min": 0,
+        }
+      }
+      yRange={
+        Object {
+          "max": 30,
+          "min": 10,
+        }
+      }
+    >
+      Mock Bar 
+    </div>
+  </g>
+</svg>
+`;

@@ -21,8 +21,8 @@ export interface BarProps {
     numBars: number;
     numSeries: number;
     placement: Placement;
-    fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
-    animationEasingType: AnimationEasingType;
+    fillFormatter?: (seriesIndex: number, dataPoint: DataPoint, index: number) => string;
+    animationEasingType?: AnimationEasingType;
 }
 
 function getBarEndingHeight(props: BarProps): number {
@@ -49,33 +49,40 @@ function getY(height: number, yStart: number, value: number) {
     return yStart;
 }
 
-const StackedBar: React.FC<BarProps> = (props: BarProps) => {
+const defaultProps: Partial<BarProps> = {
+    animationEasingType: AnimationEasingType.None,
+    fillFormatter: (seriesIndex: number, dataPoint: DataPoint, index: number) => '#FFF',
+};
 
-    const x = getBarXPosition(props);
-    const height = getBarEndingHeight(props);
-    const zeroPoint = getZeroPoint(props);
-    const animation = props.animationEasingType === AnimationEasingType.None ? 1 : useAnimation(props.animationEasingType, 600, 0);
+const Bar: React.FC<BarProps> = (props: BarProps) => {
+
+    const adjProps = { ...defaultProps, ...props };
+
+    const x = getBarXPosition(adjProps);
+    const height = getBarEndingHeight(adjProps);
+    const zeroPoint = getZeroPoint(adjProps);
+    const animation = adjProps.animationEasingType === AnimationEasingType.None ? 1 : useAnimation(adjProps.animationEasingType, 600, 0);
     const yStart = (() => {
-        if (props.yRange.max <= 0) {
-            return props.padding.top;
+        if (adjProps.yRange.max <= 0) {
+            return adjProps.padding.top;
         }
 
-        return ((100 - (props.padding.top + props.padding.bottom)) * zeroPoint) + props.padding.top;
+        return ((100 - (adjProps.padding.top + adjProps.padding.bottom)) * zeroPoint) + adjProps.padding.top;
     })();
 
-    const fill = props.fillFormatter(props.seriesIndex, props.point, props.index);
+    const fill = adjProps.fillFormatter(adjProps.seriesIndex, adjProps.point, adjProps.index);
 
     return (
         <rect
-            x={`${x - props.width / 2}%`}
-            y={`${getY(animation * height, yStart, props.point.y1)}%`}
-            height={`${props.point.y1 < 0 ? -1 * animation * height : animation * height}%`}
-            width={`${props.width / props.numSeries}%`}
+            x={`${x - adjProps.width / 2}%`}
+            y={`${getY(animation * height, yStart, adjProps.point.y1)}%`}
+            height={`${adjProps.point.y1 < 0 ? -1 * animation * height : animation * height}%`}
+            width={`${adjProps.width / adjProps.numSeries}%`}
             fill={fill}
-            stroke={props.stroke}
+            stroke={adjProps.stroke}
         >
         </rect>
     );
 }
 
-export default StackedBar;
+export default Bar;
