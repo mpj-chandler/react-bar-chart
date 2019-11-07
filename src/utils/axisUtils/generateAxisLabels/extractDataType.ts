@@ -1,6 +1,7 @@
 import Axis from '../../../enums/Axis';
 import { SeriesData } from '../../../__types__/seriesTypes';
 import DataType from '../../../enums/DataType';
+
 export function extractDataType(seriesData: SeriesData[], axis: Axis): DataType {
     let type: DataType | null = null;
     seriesData.forEach((series: SeriesData) => {

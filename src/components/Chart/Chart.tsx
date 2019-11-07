@@ -9,7 +9,8 @@ import { Padding } from '../../__types__/styling';
 import { AxisConfig } from '../../__types__/axisTypes';
 import AnimationEasingType from '../../enums/AnimationEasingFunction';
 import ChartType from '../../enums/ChartType';
-import stackSeries from '../StackedBarPlot/StackedBarPlot.mapper';
+import stackSeries from '../StackedBarPlot/stackSeries';
+import stackAndNormaliseSeries from '../StackedBarPlot/stackAndNormaliseSeries';
 import StackedBarPlot from '../StackedBarPlot/StackedBarPlot';
 
 export interface ChartProps {
@@ -38,9 +39,23 @@ const Chart: React.FC<ChartProps> = (props: ChartProps) => {
             );
         }
 
+        if (props.type === ChartType.StackedBarChart) {
+
+            return (
+                <StackedBarPlot
+                    data={stackSeries(props.data)}
+                    padding={props.padding}
+                    xAxisConfig={props.xAxisConfig}
+                    yAxisConfig={props.yAxisConfig}
+                    animationEasingFunction={props.animationEasingType}
+                    fillFormatter={props.fillFormatter}
+                />
+            );
+        }
+
         return (
             <StackedBarPlot
-                data={stackSeries(props.data)}
+                data={stackAndNormaliseSeries(props.data)}
                 padding={props.padding}
                 xAxisConfig={props.xAxisConfig}
                 yAxisConfig={props.yAxisConfig}

@@ -1,6 +1,6 @@
 import { DataType } from "../..";
 import { SeriesData, DataPoint, NamedDataPoint, NumericDataPoint, NonNullNumericDataPoint, DateIndexedDataPoint } from '../../__types__/seriesTypes';
-import stackSeries from './StackedBarPlot.mapper';
+import stackSeries from './stackSeries';
 
 describe('the stacked bar plot mapper', () => {
     describe('when provided with a data source containing only one series', () => {

@@ -12,7 +12,7 @@ function generateAxisLabels(seriesData: SeriesData[], axis: Axis):
     { dataType: DataType, labels: Array<{ index: number, label: string}> } {
 
     const dataType = extractDataType(seriesData, axis);
-
+    
     switch (dataType) {
         case DataType.NonNullNumeric:
         case DataType.Numeric:

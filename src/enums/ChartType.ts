@@ -1,6 +1,7 @@
 enum ChartType {
     BarChart,
-    StackedBarChart
+    StackedBarChart,
+    NormalisedStackedBarChart
 }
 
 export default ChartType;
