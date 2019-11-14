@@ -95,7 +95,7 @@ exports[`Chart it renders consistently 1`] = `
     <g>
       <rect
         fill="#000 "
-        height="10%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="5%"
@@ -103,67 +103,67 @@ exports[`Chart it renders consistently 1`] = `
       />
       <rect
         fill="#000 "
-        height="20%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="45%"
-        y="80%"
+        y="90%"
       />
       <rect
         fill="#000 "
-        height="30%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="85%"
-        y="70%"
+        y="90%"
       />
       <rect
         fill="#000 "
-        height="10%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="5%"
-        y="80%"
+        y="49.99999999999999%"
       />
       <rect
         fill="#000 "
-        height="20%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="45%"
-        y="60%"
+        y="49.99999999999999%"
       />
       <rect
         fill="#000 "
-        height="30%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="85%"
-        y="40%"
+        y="49.99999999999999%"
       />
       <rect
         fill="#000 "
-        height="10%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="5%"
-        y="70%"
+        y="9.999999999999993%"
       />
       <rect
         fill="#000 "
-        height="20%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="45%"
-        y="40%"
+        y="9.999999999999993%"
       />
       <rect
         fill="#000 "
-        height="30%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="85%"
-        y="10%"
+        y="9.999999999999993%"
       />
     </g>
   </svg>
@@ -345,7 +345,7 @@ exports[`Chart it renders consistently 2`] = `
     <g>
       <rect
         fill="#000 "
-        height="10%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="5%"
@@ -353,67 +353,67 @@ exports[`Chart it renders consistently 2`] = `
       />
       <rect
         fill="#000 "
-        height="20%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="45%"
-        y="80%"
+        y="90%"
       />
       <rect
         fill="#000 "
-        height="30%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="85%"
-        y="70%"
+        y="90%"
       />
       <rect
         fill="#000 "
-        height="10%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="5%"
-        y="80%"
+        y="49.99999999999999%"
       />
       <rect
         fill="#000 "
-        height="20%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="45%"
-        y="60%"
+        y="49.99999999999999%"
       />
       <rect
         fill="#000 "
-        height="30%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="85%"
-        y="40%"
+        y="49.99999999999999%"
       />
       <rect
         fill="#000 "
-        height="10%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="5%"
-        y="70%"
+        y="9.999999999999993%"
       />
       <rect
         fill="#000 "
-        height="20%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="45%"
-        y="40%"
+        y="9.999999999999993%"
       />
       <rect
         fill="#000 "
-        height="30%"
+        height="40.00000000000001%"
         stroke="black"
         width="10%"
         x="85%"
-        y="10%"
+        y="9.999999999999993%"
       />
     </g>
   </svg>
@@ -501,6 +501,256 @@ exports[`Chart it renders consistently 2`] = `
 `;
 
 exports[`Chart it renders consistently 3`] = `
+<div
+  className="BarChart"
+>
+  <div
+    className="BarChart__title"
+  >
+    anything
+  </div>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="YAxis"
+  >
+    Mock YAxis 
+  </div>
+  <svg
+    className="BarPlot"
+  >
+    <g>
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="90%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="90%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="90%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="49.99999999999999%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="49.99999999999999%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="49.99999999999999%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="9.999999999999993%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="9.999999999999993%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="9.999999999999993%"
+      />
+    </g>
+  </svg>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="XAxis"
+  >
+    Mock XAxis 
+  </div>
+</div>
+`;
+
+exports[`Chart it renders consistently 4`] = `
 <div
   className="BarChart"
 >
@@ -753,7 +1003,7 @@ exports[`Chart it renders consistently 3`] = `
 </div>
 `;
 
-exports[`Chart it renders consistently 4`] = `
+exports[`Chart it renders consistently 5`] = `
 <div
   className="BarChart"
 >
@@ -926,6 +1176,256 @@ exports[`Chart it renders consistently 4`] = `
         width="10%"
         x="85%"
         y="10%"
+      />
+    </g>
+  </svg>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="XAxis"
+  >
+    Mock XAxis 
+  </div>
+</div>
+`;
+
+exports[`Chart it renders consistently 6`] = `
+<div
+  className="BarChart"
+>
+  <div
+    className="BarChart__title"
+  >
+    anything
+  </div>
+  <div
+    data={
+      Array [
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "A",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "B",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+        Object {
+          "points": Array [
+            Object {
+              "x": 0,
+              "y1": 10,
+            },
+            Object {
+              "x": 1,
+              "y1": 20,
+            },
+            Object {
+              "x": 2,
+              "y1": 30,
+            },
+          ],
+          "seriesName": "C",
+          "type": Object {
+            "x": "NON_NULL_NUMERIC",
+            "y": "NON_NULL_NUMERIC",
+          },
+        },
+      ]
+    }
+    padding={
+      Object {
+        "bottom": 10,
+        "left": 10,
+        "right": 10,
+        "top": 10,
+      }
+    }
+    title="YAxis"
+  >
+    Mock YAxis 
+  </div>
+  <svg
+    className="BarPlot"
+  >
+    <g>
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="90%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="90%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="90%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="49.99999999999999%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="49.99999999999999%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="49.99999999999999%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="5%"
+        y="9.999999999999993%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="45%"
+        y="9.999999999999993%"
+      />
+      <rect
+        fill="#000 "
+        height="40.00000000000001%"
+        stroke="black"
+        width="10%"
+        x="85%"
+        y="9.999999999999993%"
       />
     </g>
   </svg>

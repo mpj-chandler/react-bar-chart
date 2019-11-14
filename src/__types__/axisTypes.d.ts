@@ -1,4 +1,4 @@
-import { SeriesData } from './seriesTypes';
+import { SeriesData, NumericDataPoint } from './seriesTypes';
 import { Padding } from './styling';
 import { Placement } from '../enums/Placement';
 
@@ -19,6 +19,10 @@ export interface AxisConfig {
     margin: number;
     tickPlacement: Placement;
     tickLength: number;
+    titlePos?: {
+        xPos: number,
+        yPos: number
+    }
 }
 
 export interface AxisTickProps {

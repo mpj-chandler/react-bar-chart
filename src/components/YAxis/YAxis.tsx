@@ -7,6 +7,7 @@ import Axis from '../../enums/Axis';
 import AxisTickLabel from '../AxisTickLabel/AxisTickLabel';
 import { AxisProps, AxisTickProps, AxisRange } from '../../__types__/axisTypes';
 import DataType from '../../enums/DataType';
+import AxisTitleLabel from '../AxisTitleLabel/AxisTitleLabel';
 
 function getYAxisXPos(props: AxisProps): number {
     const range = getXAxisRange(props.data, props.config);
@@ -57,12 +58,15 @@ function renderTicks(props: AxisTickProps, x2: number): JSX.Element {
 const YAxis: React.FC<AxisProps> = (props) => {
 
     const yAxisXPos = getYAxisXPos(props);
+    const titlePos =
+      props.config && props.config.titlePos ? props.config.titlePos : undefined;
 
     return (
         <div className={styles.YAxis}>
             <svg className={styles.YAxis__Svg}>
                 <line x1={`${yAxisXPos}%`} y1={`${props.padding.top}%`} x2={`${yAxisXPos}%`} y2={`${100 - props.padding.bottom}%`} stroke={'black'} fill={'transparent'} strokeWidth={1}/>
                 {renderTicks({data: props.data, padding: props.padding, config: props.config}, yAxisXPos)}
+                <AxisTitleLabel titlePos={titlePos} label={props.title} axis={Axis.YAxis}/>
             </svg>
         </div>
     );

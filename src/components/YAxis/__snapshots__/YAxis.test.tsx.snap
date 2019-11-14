@@ -88,6 +88,12 @@ exports[`YAxis it renders consistently 1`] = `
         </div>
       </g>
     </g>
+    <div
+      axis={1}
+      label="anything"
+    >
+      MockAxisTitleLabel 
+    </div>
   </svg>
 </div>
 `;
@@ -180,6 +186,12 @@ exports[`YAxis it renders consistently with an explicit config 1`] = `
         </div>
       </g>
     </g>
+    <div
+      axis={1}
+      label="anything"
+    >
+      MockAxisTitleLabel 
+    </div>
   </svg>
 </div>
 `;

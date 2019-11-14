@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AxisTitleLabel When mounted on a YAxis it renders consistently 1`] = `
+<text
+  className="AxisTitleLabel"
+  stroke="black"
+  style={
+    Object {
+      "transform": "translate(-1.25px, NaNpx)",
+    }
+  }
+  x="0%"
+  y="0%"
+>
+  123456
+</text>
+`;
+
+exports[`AxisTitleLabel When mounted on an XAxis it renders consistently 1`] = `
+<text
+  className="AxisTitleLabel"
+  stroke="black"
+  style={
+    Object {
+      "transform": "translate(0px, 0px)",
+    }
+  }
+  x="0%"
+  y="0%"
+>
+  123456
+</text>
+`;

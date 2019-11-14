@@ -6,6 +6,7 @@ import DataType from '../../enums/DataType';
 import { AxisProps, AxisConfig } from '../../__types__/axisTypes';
 
 jest.mock('../AxisTickLabel/AxisTickLabel');
+jest.mock("../AxisTitleLabel/AxisTitleLabel");
 
 describe('XAxis', () => {
     describe('When XAxis values are all positive', () => {

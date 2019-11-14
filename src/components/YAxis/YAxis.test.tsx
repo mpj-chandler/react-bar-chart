@@ -5,8 +5,8 @@ import { Placement } from '../../enums/Placement';
 import { AxisProps, AxisConfig } from '../../__types__/axisTypes';
 import DataType from '../../enums/DataType';
 
-
 jest.mock('../AxisTickLabel/AxisTickLabel');
+jest.mock('../AxisTitleLabel/AxisTitleLabel');
 
 describe('YAxis', () => {
     const props: AxisProps = {
